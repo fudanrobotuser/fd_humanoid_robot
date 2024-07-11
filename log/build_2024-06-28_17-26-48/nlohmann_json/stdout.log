@@ -1,0 +1,145 @@
+[  1%] Built target test_main
+[  2%] Built target abi_compat_diag_on
+[  3%] Built target abi_compat_main
+[  4%] Built target abi_compat_diag_off
+[  7%] Built target test-alt-string_cpp11
+[  7%] Built target test-allocator_cpp11
+[  9%] Built target test-assert_macro_cpp11
+[  9%] Built target test-binary_formats_cpp11
+[ 10%] Built target test-algorithms_cpp11
+[ 11%] Built target test-capacity_cpp11
+[ 13%] Built target test-byte_container_with_subtype_cpp11
+[ 14%] Built target test-bson_cpp11
+[ 15%] Built target test-bjdata_cpp11
+[ 16%] Built target test-class_iterator_cpp11
+[ 17%] Built target test-cbor_cpp11
+[ 18%] Built target test-class_const_iterator_cpp11
+[ 20%] Built target test-class_lexer_cpp11
+[ 21%] Built target test-comparison_cpp11
+[ 22%] Built target test-class_parser_cpp11
+[ 23%] Built target test-comparison_cpp20
+[ 26%] Built target test-constructor2_cpp11
+[ 26%] Built target test-concepts_cpp11
+[ 27%] Built target test-convenience_cpp11
+[ 29%] Built target test-conversions_cpp17
+[ 30%] Built target test-constructor1_cpp11
+[ 31%] Built target test-conversions_cpp11
+[ 32%] Built target test-custom-base-class_cpp11
+[ 33%] Built target test-diagnostics_cpp11
+[ 34%] Built target test-deserialization_cpp11
+[ 36%] Built target test-element_access2_cpp11
+[ 37%] Built target test-element_access2_cpp14
+[ 38%] Built target test-disabled_exceptions_cpp11
+[ 39%] Built target test-element_access1_cpp11
+[ 41%] Built target test-element_access2_cpp17
+[ 41%] Built target test-hash_cpp11
+[ 42%] Built target test-inspection_cpp11
+[ 44%] Built target test-items_cpp11
+[ 45%] Built target test-items_cpp17
+[ 46%] Built target test-iterators2_cpp11
+[ 47%] Built target test-iterators1_cpp11
+[ 49%] Built target test-json_pointer_cpp11
+[ 50%] Built target test-json_patch_cpp11
+[ 51%] Built target test-iterators2_cpp20
+[ 52%] Built target test-large_json_cpp11
+[ 54%] Built target test-json_pointer_cpp20
+[ 54%] Built target test-meta_cpp11
+[ 55%] Built target test-merge_patch_cpp11
+[ 58%] Built target test-msgpack_cpp11
+[ 58%] Built target test-modifiers_cpp11
+[ 59%] Built target test-no-mem-leak-on-adl-serialize_cpp11
+[ 60%] Built target test-noexcept_cpp11
+[ 62%] Built target test-ordered_map_cpp11
+[ 63%] Built target test-ordered_json_cpp11
+[ 64%] Built target test-pointer_access_cpp11
+[ 65%] Built target test-readme_cpp11
+[ 66%] Built target test-reference_access_cpp11
+[ 67%] Built target test-regression1_cpp17
+[ 68%] Built target test-regression1_cpp11
+[ 70%] Built target test-regression2_cpp11
+[ 71%] Built target test-regression2_cpp17
+[ 72%] Built target test-regression2_cpp20
+[ 75%] Built target test-to_chars_cpp11
+[ 75%] Built target test-serialization_cpp11
+[ 76%] Built target test-testsuites_cpp11
+[ 77%] Built target test-ubjson_cpp11
+[ 78%] Built target test-udl_cpp11
+[ 80%] Built target test-udt_cpp11
+[ 81%] Built target test-unicode1_cpp11
+[ 82%] Built target test-udt_macro_cpp11
+[ 83%] Built target test-type_traits_cpp11
+[ 84%] Built target test-unicode2_cpp11
+[ 85%] Built target test-unicode3_cpp11
+[ 87%] Built target test-unicode4_cpp11
+[ 87%] Built target test-unicode5_cpp11
+[ 89%] Built target test-user_defined_input_cpp11
+[ 90%] Built target test-windows_h_cpp11
+[ 91%] Built target test-wstring_cpp11
+[ 92%] Built target test-comparison_legacy_cpp11
+[ 93%] Built target abi_config_default
+[ 94%] Built target abi_config_custom
+[ 96%] Built target abi_config_noversion
+[ 97%] Built target test-comparison_legacy_cpp20
+[ 98%] Built target abi_compat_diag
+[100%] Built target abi_compat_inline_ns
+-- Install configuration: ""
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/adl_serializer.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/lexer.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/position_t.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/parser.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_ref.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/detected.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/string_escape.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/abi_macros.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/hash.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/serializer.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_pointer.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/value_t.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/string_concat.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/macro_scope.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/exceptions.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/ordered_map.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/json.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/json_fwd.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/pkgconfig/nlohmann_json.pc

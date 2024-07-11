@@ -1,0 +1,10 @@
+[0.190s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target robot_control_node[0m
+[0.282s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o[0m
+[2.107s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:109:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[2.107s]   109 |     [01;31m[Kauto[m[K message2 = std_msgs::msg::Int32();
+[2.107s]       |     [01;31m[K^~~~[m[K
+[2.730s] gmake[2]: *** [CMakeFiles/robot_control_node.dir/build.make:76: CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o] Error 1
+[2.731s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_control_node.dir/all] Error 2
+[2.731s] gmake: *** [Makefile:146: all] Error 2
+[2.733s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10

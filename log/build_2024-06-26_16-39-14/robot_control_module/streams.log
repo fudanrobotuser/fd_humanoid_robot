@@ -1,0 +1,64 @@
+[0.289s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module -DCMAKE_INSTALL_PREFIX=/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module
+[0.356s] -- The C compiler identification is GNU 11.4.0
+[0.424s] -- The CXX compiler identification is GNU 11.4.0
+[0.434s] -- Detecting C compiler ABI info
+[0.513s] -- Detecting C compiler ABI info - done
+[0.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.523s] -- Detecting C compile features
+[0.524s] -- Detecting C compile features - done
+[0.528s] -- Detecting CXX compiler ABI info
+[0.618s] -- Detecting CXX compiler ABI info - done
+[0.629s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.630s] -- Detecting CXX compile features
+[0.630s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.800s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.922s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.986s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.994s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.008s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.167s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.292s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.321s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.374s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.388s] -- Looking for pthread.h
+[1.481s] -- Looking for pthread.h - found
+[1.481s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.574s] -- Found Threads: TRUE  
+[1.848s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.917s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.052s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.725s] -- Configuring done
+[2.919s] -- Generating done
+[2.921s] -- Build files have been written to: /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module
+[2.934s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module -DCMAKE_INSTALL_PREFIX=/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module
+[2.935s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10
+[3.022s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/csv_read.cpp.o[0m
+[3.022s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o[0m
+[12.034s] [100%] [32m[1mLinking CXX executable robot_control_node[0m
+[17.149s] [100%] Built target robot_control_node
+[17.197s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10
+[17.517s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module
+[17.529s] -- Install configuration: ""
+[17.545s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/robot_control_module/robot_control_node
+[17.549s] -- Set runtime path of "/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/robot_control_module/robot_control_node" to ""
+[17.550s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/package_run_dependencies/robot_control_module
+[17.550s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/parent_prefix_path/robot_control_module
+[17.550s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/ament_prefix_path.sh
+[17.551s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/ament_prefix_path.dsv
+[17.551s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/path.sh
+[17.551s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/path.dsv
+[17.552s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.bash
+[17.552s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.sh
+[17.552s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.zsh
+[17.552s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.dsv
+[17.553s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.dsv
+[17.553s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/packages/robot_control_module
+[17.553s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/cmake/robot_control_moduleConfig.cmake
+[17.553s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/cmake/robot_control_moduleConfig-version.cmake
+[17.554s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.xml
+[17.566s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module

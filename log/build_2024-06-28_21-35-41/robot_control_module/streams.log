@@ -1,0 +1,51 @@
+[0.179s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target robot_control_node[0m
+[0.250s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o[0m
+[2.115s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:106:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.116s]   106 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KInt32[m[K>::SharedPtr publisher2_;
+[2.116s]       |                                      [01;31m[K^~~~~[m[K
+[2.116s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:106:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.116s]   106 |     rclcpp::Publisher<std_msgs::msg::Int32[01;31m[K>[m[K::SharedPtr publisher2_;
+[2.116s]       |                                           [01;31m[K^[m[K
+[2.116s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:106:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.116s]   106 |     rclcpp::Publisher<std_msgs::msg::Int32>::[01;31m[KSharedPtr[m[K publisher2_;
+[2.116s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.116s]       |                                                       [32m[K;[m[K
+[2.117s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:106:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher2_[m[K’ does not name a type
+[2.117s]   106 |     rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr [01;31m[Kpublisher2_[m[K;
+[2.117s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[2.117s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:108:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[2.117s]   108 |     [01;31m[Kauto[m[K message2 = std_msgs::msg::Int32();
+[2.117s]       |     [01;31m[K^~~~[m[K
+[2.122s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:[m[K In constructor ‘[01m[KTrajectoryPublisher::TrajectoryPublisher(const string&)[m[K’:
+[2.122s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher2_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[2.123s]    69 |         [01;31m[Kpublisher2_[m[K = this->create_publisher<std_msgs::msg::Int32>("int_topic", 10);
+[2.123s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.123s]       |         [32m[Kpublisher_[m[K
+[2.123s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:69:61:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.123s]    69 |         publisher2_ = this->create_publisher<std_msgs::msg::[01;31m[KInt32[m[K>("int_topic", 10);
+[2.123s]       |                                                             [01;31m[K^~~~~[m[K
+[2.123s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:69:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTrajectoryPublisher::create_publisher<<expression error> >(const char [10], int)[m[K’
+[2.123s]    69 |         publisher2_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Int32>("int_topic", 10)[m[K;
+[2.123s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.123s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.124s]                  from [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:8[m[K:
+[2.124s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.124s]    73 | [01;36m[KNode[m[K::create_publisher(
+[2.124s]       | [01;36m[K^~~~[m[K
+[2.124s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.124s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:69:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.124s]    69 |         publisher2_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Int32>("int_topic", 10)[m[K;
+[2.124s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.134s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryPublisher::publish_next_batch()[m[K’:
+[2.134s] [01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:95:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher2_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[2.134s]    95 |             [01;31m[Kpublisher2_[m[K->publish(message2);
+[2.134s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.134s]       |             [32m[Kpublisher_[m[K
+[2.714s] gmake[2]: *** [CMakeFiles/robot_control_node.dir/build.make:76: CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o] Error 1
+[2.714s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_control_node.dir/all] Error 2
+[2.714s] gmake: *** [Makefile:146: all] Error 2
+[2.716s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10

@@ -1,0 +1,22 @@
+[0.180s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module -- -j10 -l10
+[0.229s] [100%] Built target sensor_node
+[0.249s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module -- -j10 -l10
+[0.313s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module
+[0.322s] -- Install configuration: ""
+[0.322s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib/sensor_module/sensor_node
+[0.322s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/ament_index/resource_index/package_run_dependencies/sensor_module
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/ament_index/resource_index/parent_prefix_path/sensor_module
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/environment/ament_prefix_path.sh
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/environment/ament_prefix_path.dsv
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/environment/path.sh
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/environment/path.dsv
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/local_setup.bash
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/local_setup.sh
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/local_setup.zsh
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/local_setup.dsv
+[0.323s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.dsv
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/ament_index/resource_index/packages/sensor_module
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/cmake/sensor_moduleConfig.cmake
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/cmake/sensor_moduleConfig-version.cmake
+[0.323s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.xml
+[0.327s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module

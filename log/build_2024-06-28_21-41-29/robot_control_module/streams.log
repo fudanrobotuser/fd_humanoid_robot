@@ -1,0 +1,26 @@
+[0.183s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target robot_control_node[0m
+[0.278s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o[0m
+[3.724s] [ 66%] [32m[1mLinking CXX executable robot_control_node[0m
+[5.225s] [100%] Built target robot_control_node
+[5.234s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10
+[5.260s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module
+[5.268s] -- Install configuration: ""
+[5.268s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/robot_control_module/robot_control_node
+[5.270s] -- Set runtime path of "/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/robot_control_module/robot_control_node" to ""
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/package_run_dependencies/robot_control_module
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/parent_prefix_path/robot_control_module
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/ament_prefix_path.sh
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/ament_prefix_path.dsv
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/path.sh
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/path.dsv
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.bash
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.sh
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.zsh
+[5.271s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.dsv
+[5.271s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.dsv
+[5.272s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/packages/robot_control_module
+[5.272s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/cmake/robot_control_moduleConfig.cmake
+[5.272s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/cmake/robot_control_moduleConfig-version.cmake
+[5.273s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.xml
+[5.273s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module

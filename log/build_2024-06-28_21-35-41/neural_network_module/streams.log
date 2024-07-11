@@ -1,0 +1,21 @@
+[0.642s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/src/neural_network_module': PYTHONPATH=/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/prefix_override:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/neural_network_module build --build-base /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build install --record /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/install.log --single-version-externally-managed install_data
+[0.800s] running egg_info
+[0.801s] writing ../../build/neural_network_module/neural_network_module.egg-info/PKG-INFO
+[0.801s] writing dependency_links to ../../build/neural_network_module/neural_network_module.egg-info/dependency_links.txt
+[0.801s] writing entry points to ../../build/neural_network_module/neural_network_module.egg-info/entry_points.txt
+[0.801s] writing requirements to ../../build/neural_network_module/neural_network_module.egg-info/requires.txt
+[0.801s] writing top-level names to ../../build/neural_network_module/neural_network_module.egg-info/top_level.txt
+[0.802s] reading manifest file '../../build/neural_network_module/neural_network_module.egg-info/SOURCES.txt'
+[0.803s] writing manifest file '../../build/neural_network_module/neural_network_module.egg-info/SOURCES.txt'
+[0.803s] running build
+[0.803s] running build_py
+[0.803s] running install
+[0.803s] running install_lib
+[0.804s] running install_data
+[0.804s] running install_egg_info
+[0.805s] removing '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages/neural_network_module-0.0.0-py3.10.egg-info' (and everything under it)
+[0.806s] Copying ../../build/neural_network_module/neural_network_module.egg-info to /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages/neural_network_module-0.0.0-py3.10.egg-info
+[0.806s] running install_scripts
+[0.822s] Installing neural_network_node script to /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/neural_network_module
+[0.822s] writing list of installed files to '/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/install.log'
+[0.840s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/src/neural_network_module' returned '0': PYTHONPATH=/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/prefix_override:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/neural_network_module build --build-base /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build install --record /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/install.log --single-version-externally-managed install_data

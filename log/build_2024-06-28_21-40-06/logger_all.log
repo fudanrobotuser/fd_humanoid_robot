@@ -1,0 +1,282 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7faaaac68ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faaaac68a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faaaac68a30>>, mixin_verb=('build',))
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.181s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fudanrobotuser/fd_humanoid_robot'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/json-develop) by extension 'python'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/json-develop' with type 'cmake' and name 'nlohmann_json'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/neural_network_module) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neural_network_module' with type 'ros.ament_python' and name 'neural_network_module'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_module) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control_module' with type 'ros.ament_cmake' and name 'robot_control_module'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_module) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_module' with type 'ros.ament_cmake' and name 'sensor_module'
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.221s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/fudanrobotuser/fd_humanoid_robot/install
+[0.221s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'neural_network_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'neural_network_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module', 'merge_install': False, 'path': '/home/fudanrobotuser/fd_humanoid_robot/src/neural_network_module', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nlohmann_json' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'nlohmann_json' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json', 'merge_install': False, 'path': '/home/fudanrobotuser/fd_humanoid_robot/src/json-develop', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_control_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module', 'merge_install': False, 'path': '/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'sensor_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module', 'merge_install': False, 'path': '/home/fudanrobotuser/fd_humanoid_robot/src/sensor_module', 'symlink_install': False, 'test_result_base': None}
+[0.253s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fudanrobotuser/fd_humanoid_robot/src/neural_network_module' with build type 'ament_python'
+[0.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('neural_network_module', 'ament_prefix_path')
+[0.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/hook/ament_prefix_path.ps1'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/hook/ament_prefix_path.sh'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fudanrobotuser/fd_humanoid_robot/src/json-develop'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module'
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fudanrobotuser/fd_humanoid_robot/src/sensor_module' with build type 'ament_cmake'
+[0.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fudanrobotuser/fd_humanoid_robot/src/sensor_module'
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.433s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fudanrobotuser/fd_humanoid_robot/src/neural_network_module'
+[0.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json': /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json -- -j10 -l10
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module -- -j10 -l10
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module -- -j10 -l10
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module
+[0.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_module)
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module' for CMake module files
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module' for CMake config files
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_module', 'cmake_prefix_path')
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/hook/cmake_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/hook/cmake_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/hook/cmake_prefix_path.sh'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/bin'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib/pkgconfig/sensor_module.pc'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib/python3.10/site-packages'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/bin'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.dsv'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.sh'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.bash'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.zsh'
+[0.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/colcon-core/packages/sensor_module)
+[0.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_module)
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module' for CMake module files
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module' for CMake config files
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_module', 'cmake_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/hook/cmake_prefix_path.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/hook/cmake_prefix_path.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/hook/cmake_prefix_path.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/bin'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib/pkgconfig/sensor_module.pc'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib/python3.10/site-packages'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/bin'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.sh'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.bash'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.zsh'
+[0.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/colcon-core/packages/sensor_module)
+[0.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/src/neural_network_module': PYTHONPATH=/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/prefix_override:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/neural_network_module build --build-base /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build install --record /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/install.log --single-version-externally-managed install_data
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json' returned '0': /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json -- -j10 -l10
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json': /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json
+[1.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nlohmann_json)
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json' for CMake module files
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json' for CMake config files
+[1.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('nlohmann_json', 'cmake_prefix_path')
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/nlohmann_json/hook/cmake_prefix_path.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/nlohmann_json/hook/cmake_prefix_path.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/nlohmann_json/hook/cmake_prefix_path.sh'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/bin'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/lib/pkgconfig/nlohmann_json.pc'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/lib/python3.10/site-packages'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/bin'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/nlohmann_json/package.ps1'
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json' returned '0': /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json
+[1.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/nlohmann_json/package.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/nlohmann_json/package.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/nlohmann_json/package.bash'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/nlohmann_json/package.zsh'
+[1.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/colcon-core/packages/nlohmann_json)
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module' for CMake module files
+[1.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/src/neural_network_module' returned '0': PYTHONPATH=/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/prefix_override:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/neural_network_module build --build-base /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build install --record /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/install.log --single-version-externally-managed install_data
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module' for CMake config files
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/bin'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/pkgconfig/neural_network_module.pc'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages'
+[1.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('neural_network_module', 'pythonpath')
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/hook/pythonpath.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/hook/pythonpath.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/hook/pythonpath.sh'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/bin'
+[1.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neural_network_module)
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/package.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/package.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/package.sh'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/package.bash'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module/package.zsh'
+[1.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/colcon-core/packages/neural_network_module)
+[2.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module:/opt/ros/humble /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module -- -j10 -l10
+[2.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control_module)
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module' for CMake module files
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module' for CMake config files
+[2.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control_module', 'cmake_prefix_path')
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/hook/cmake_prefix_path.ps1'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/hook/cmake_prefix_path.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/hook/cmake_prefix_path.sh'
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib'
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/bin'
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/pkgconfig/robot_control_module.pc'
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/python3.10/site-packages'
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/bin'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.ps1'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.dsv'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.sh'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.bash'
+[2.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.zsh'
+[2.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/colcon-core/packages/robot_control_module)
+[2.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.999s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.005s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.005s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.005s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.014s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fudanrobotuser/fd_humanoid_robot/install/local_setup.ps1'
+[3.015s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fudanrobotuser/fd_humanoid_robot/install/_local_setup_util_ps1.py'
+[3.017s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fudanrobotuser/fd_humanoid_robot/install/setup.ps1'
+[3.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fudanrobotuser/fd_humanoid_robot/install/local_setup.sh'
+[3.019s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fudanrobotuser/fd_humanoid_robot/install/_local_setup_util_sh.py'
+[3.019s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fudanrobotuser/fd_humanoid_robot/install/setup.sh'
+[3.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fudanrobotuser/fd_humanoid_robot/install/local_setup.bash'
+[3.020s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fudanrobotuser/fd_humanoid_robot/install/setup.bash'
+[3.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fudanrobotuser/fd_humanoid_robot/install/local_setup.zsh'
+[3.021s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fudanrobotuser/fd_humanoid_robot/install/setup.zsh'

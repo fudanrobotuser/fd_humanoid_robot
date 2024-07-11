@@ -1,0 +1,341 @@
+[0.288s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json': /usr/bin/cmake /home/fudanrobotuser/fd_humanoid_robot/src/json-develop -DCMAKE_INSTALL_PREFIX=/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json
+[0.411s] -- The CXX compiler identification is GNU 11.4.0
+[0.424s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.530s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.540s] -- Using the multi-header code from /home/fudanrobotuser/fd_humanoid_robot/src/json-develop/include/
+[0.568s] -- Found Git: /usr/bin/git (found version "2.34.1") 
+[0.633s] -- Operating system: Linux-5.15.0-1064-realtime; Distributor ID:	Ubuntu; Description:	Ubuntu 22.04.4 LTS; Release:	22.04; Codename:	jammy; Linux fudanrobotuser-Not-Specified 5.15.0-1064-realtime #72-Ubuntu SMP PREEMPT_RT Wed May 15 15:52:13 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+[0.635s] -- Compiler: c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0; Copyright (C) 2021 Free Software Foundation, Inc.; This is free software; see the source for copying conditions.  There is NO; warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+[0.636s] -- Testing standards: 11 14 17 20 23
+[0.638s] -- Looking for C++ include sys/types.h
+[0.733s] -- Looking for C++ include sys/types.h - found
+[0.733s] -- Looking for C++ include stdint.h
+[0.828s] -- Looking for C++ include stdint.h - found
+[0.828s] -- Looking for C++ include stddef.h
+[0.919s] -- Looking for C++ include stddef.h - found
+[0.919s] -- Check size of size_t
+[1.013s] -- Check size of size_t - done
+[1.046s] -- Configuring done
+[1.196s] -- Generating done
+[1.208s] -- Build files have been written to: /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json
+[1.213s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json' returned '0': /usr/bin/cmake /home/fudanrobotuser/fd_humanoid_robot/src/json-develop -DCMAKE_INSTALL_PREFIX=/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json
+[1.215s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json': /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json -- -j10 -l10
+[1.268s] [  0%] [32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag_off.dir/diag_off.cpp.o[0m
+[1.268s] [  1%] [32mBuilding CXX object tests/CMakeFiles/test_main.dir/src/unit.cpp.o[0m
+[1.268s] [  1%] [32mBuilding CXX object tests/abi/CMakeFiles/abi_compat_main.dir/main.cpp.o[0m
+[1.268s] [  1%] [32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag_on.dir/diag_on.cpp.o[0m
+[3.655s] [  2%] [32m[1mLinking CXX static library libabi_compat_diag_off.a[0m
+[3.713s] [  2%] Built target abi_compat_diag_off
+[3.768s] [  3%] [32m[1mLinking CXX static library libabi_compat_diag_on.a[0m
+[3.823s] [  3%] Built target abi_compat_diag_on
+[3.899s] [  3%] Built target test_main
+[3.940s] [  4%] [32mBuilding CXX object tests/CMakeFiles/test-allocator_cpp11.dir/src/unit-allocator.cpp.o[0m
+[3.943s] [  4%] [32mBuilding CXX object tests/CMakeFiles/test-alt-string_cpp11.dir/src/unit-alt-string.cpp.o[0m
+[3.951s] [  5%] [32mBuilding CXX object tests/CMakeFiles/test-algorithms_cpp11.dir/src/unit-algorithms.cpp.o[0m
+[3.954s] [  5%] [32mBuilding CXX object tests/CMakeFiles/test-assert_macro_cpp11.dir/src/unit-assert_macro.cpp.o[0m
+[3.954s] [  6%] [32mBuilding CXX object tests/CMakeFiles/test-bjdata_cpp11.dir/src/unit-bjdata.cpp.o[0m
+[3.958s] [  6%] [32mBuilding CXX object tests/CMakeFiles/test-binary_formats_cpp11.dir/src/unit-binary_formats.cpp.o[0m
+[3.967s] [  7%] [32mBuilding CXX object tests/CMakeFiles/test-bson_cpp11.dir/src/unit-bson.cpp.o[0m
+[3.974s] [  7%] [32mBuilding CXX object tests/CMakeFiles/test-capacity_cpp11.dir/src/unit-capacity.cpp.o[0m
+[4.000s] [  8%] [32mBuilding CXX object tests/CMakeFiles/test-byte_container_with_subtype_cpp11.dir/src/unit-byte_container_with_subtype.cpp.o[0m
+[4.055s] [  9%] [32m[1mLinking CXX static library libabi_compat_main.a[0m
+[4.168s] [  9%] Built target abi_compat_main
+[4.288s] [  9%] [32mBuilding CXX object tests/CMakeFiles/test-cbor_cpp11.dir/src/unit-cbor.cpp.o[0m
+[7.320s] [ 10%] [32m[1mLinking CXX executable test-assert_macro_cpp11[0m
+[7.440s] [ 11%] [32m[1mLinking CXX executable test-byte_container_with_subtype_cpp11[0m
+[7.725s] [ 11%] Built target test-byte_container_with_subtype_cpp11
+[7.815s] [ 11%] Built target test-assert_macro_cpp11
+[7.841s] [ 12%] [32mBuilding CXX object tests/CMakeFiles/test-class_const_iterator_cpp11.dir/src/unit-class_const_iterator.cpp.o[0m
+[7.933s] [ 13%] [32mBuilding CXX object tests/CMakeFiles/test-class_iterator_cpp11.dir/src/unit-class_iterator.cpp.o[0m
+[8.444s] [ 14%] [32m[1mLinking CXX executable test-capacity_cpp11[0m
+[8.716s] [ 14%] Built target test-capacity_cpp11
+[8.739s] [ 15%] [32mBuilding CXX object tests/CMakeFiles/test-class_lexer_cpp11.dir/src/unit-class_lexer.cpp.o[0m
+[10.133s] [ 15%] [32m[1mLinking CXX executable test-algorithms_cpp11[0m
+[10.731s] [ 16%] [32m[1mLinking CXX executable test-allocator_cpp11[0m
+[10.743s] [ 16%] Built target test-algorithms_cpp11
+[10.788s] [ 16%] [32mBuilding CXX object tests/CMakeFiles/test-class_parser_cpp11.dir/src/unit-class_parser.cpp.o[0m
+[11.159s] [ 16%] Built target test-allocator_cpp11
+[11.288s] [ 16%] [32mBuilding CXX object tests/CMakeFiles/test-comparison_cpp11.dir/src/unit-comparison.cpp.o[0m
+[11.430s] [ 17%] [32m[1mLinking CXX executable test-class_lexer_cpp11[0m
+[11.639s] [ 18%] [32m[1mLinking CXX executable test-binary_formats_cpp11[0m
+[11.732s] [ 18%] Built target test-class_lexer_cpp11
+[11.860s] [ 18%] [32mBuilding CXX object tests/CMakeFiles/test-comparison_cpp20.dir/src/unit-comparison.cpp.o[0m
+[11.948s] [ 19%] [32m[1mLinking CXX executable test-alt-string_cpp11[0m
+[11.969s] [ 19%] Built target test-binary_formats_cpp11
+[12.032s] [ 20%] [32mBuilding CXX object tests/CMakeFiles/test-concepts_cpp11.dir/src/unit-concepts.cpp.o[0m
+[12.361s] [ 20%] Built target test-alt-string_cpp11
+[12.419s] [ 20%] [32m[1mLinking CXX executable test-class_const_iterator_cpp11[0m
+[12.493s] [ 20%] [32mBuilding CXX object tests/CMakeFiles/test-constructor1_cpp11.dir/src/unit-constructor1.cpp.o[0m
+[12.525s] [ 20%] [32m[1mLinking CXX executable test-class_iterator_cpp11[0m
+[12.964s] [ 20%] Built target test-class_const_iterator_cpp11
+[13.075s] [ 20%] Built target test-class_iterator_cpp11
+[13.114s] [ 20%] [32mBuilding CXX object tests/CMakeFiles/test-constructor2_cpp11.dir/src/unit-constructor2.cpp.o[0m
+[13.215s] [ 21%] [32mBuilding CXX object tests/CMakeFiles/test-convenience_cpp11.dir/src/unit-convenience.cpp.o[0m
+[15.851s] [ 21%] [32m[1mLinking CXX executable test-bson_cpp11[0m
+[16.355s] [ 21%] Built target test-bson_cpp11
+[16.471s] [ 22%] [32mBuilding CXX object tests/CMakeFiles/test-conversions_cpp11.dir/src/unit-conversions.cpp.o[0m
+[16.862s] [ 23%] [32m[1mLinking CXX executable test-concepts_cpp11[0m
+[17.187s] [ 23%] [32m[1mLinking CXX executable test-convenience_cpp11[0m
+[17.330s] [ 23%] Built target test-concepts_cpp11
+[17.418s] [ 24%] [32mBuilding CXX object tests/CMakeFiles/test-conversions_cpp17.dir/src/unit-conversions.cpp.o[0m
+[17.521s] [ 24%] Built target test-convenience_cpp11
+[17.553s] [ 24%] [32mBuilding CXX object tests/CMakeFiles/test-custom-base-class_cpp11.dir/src/unit-custom-base-class.cpp.o[0m
+[18.185s] [ 25%] [32m[1mLinking CXX executable test-constructor2_cpp11[0m
+[18.198s] [ 26%] [32m[1mLinking CXX executable test-comparison_cpp11[0m
+[18.544s] [ 26%] Built target test-comparison_cpp11
+[18.636s] [ 26%] Built target test-constructor2_cpp11
+[18.667s] [ 26%] [32mBuilding CXX object tests/CMakeFiles/test-deserialization_cpp11.dir/src/unit-deserialization.cpp.o[0m
+[18.684s] [ 27%] [32mBuilding CXX object tests/CMakeFiles/test-diagnostics_cpp11.dir/src/unit-diagnostics.cpp.o[0m
+[22.570s] [ 28%] [32m[1mLinking CXX executable test-comparison_cpp20[0m
+[22.907s] [ 28%] Built target test-comparison_cpp20
+[22.991s] [ 29%] [32mBuilding CXX object tests/CMakeFiles/test-disabled_exceptions_cpp11.dir/src/unit-disabled_exceptions.cpp.o[0m
+[24.340s] [ 30%] [32m[1mLinking CXX executable test-cbor_cpp11[0m
+[24.770s] [ 30%] Built target test-cbor_cpp11
+[24.899s] [ 31%] [32mBuilding CXX object tests/CMakeFiles/test-element_access1_cpp11.dir/src/unit-element_access1.cpp.o[0m
+[25.395s] [ 31%] [32m[1mLinking CXX executable test-diagnostics_cpp11[0m
+[25.543s] [ 32%] [32m[1mLinking CXX executable test-class_parser_cpp11[0m
+[25.892s] [ 32%] Built target test-diagnostics_cpp11
+[26.007s] [ 33%] [32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp11.dir/src/unit-element_access2.cpp.o[0m
+[26.077s] [ 33%] Built target test-class_parser_cpp11
+[26.154s] [ 34%] [32m[1mLinking CXX executable test-constructor1_cpp11[0m
+[26.183s] [ 34%] [32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp14.dir/src/unit-element_access2.cpp.o[0m
+[26.331s] [ 35%] [32m[1mLinking CXX executable test-custom-base-class_cpp11[0m
+[26.737s] [ 35%] Built target test-constructor1_cpp11
+[26.867s] [ 35%] [32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp17.dir/src/unit-element_access2.cpp.o[0m
+[27.086s] [ 35%] Built target test-custom-base-class_cpp11
+[27.210s] [ 36%] [32mBuilding CXX object tests/CMakeFiles/test-hash_cpp11.dir/src/unit-hash.cpp.o[0m
+[27.297s] [ 36%] [32m[1mLinking CXX executable test-bjdata_cpp11[0m
+[27.808s] [ 36%] Built target test-bjdata_cpp11
+[27.935s] [ 37%] [32mBuilding CXX object tests/CMakeFiles/test-inspection_cpp11.dir/src/unit-inspection.cpp.o[0m
+[28.005s] [ 37%] [32m[1mLinking CXX executable test-disabled_exceptions_cpp11[0m
+[28.661s] [ 37%] Built target test-disabled_exceptions_cpp11
+[28.779s] [ 38%] [32mBuilding CXX object tests/CMakeFiles/test-items_cpp11.dir/src/unit-items.cpp.o[0m
+[33.196s] [ 38%] [32m[1mLinking CXX executable test-element_access1_cpp11[0m
+[33.841s] [ 38%] Built target test-element_access1_cpp11
+[33.880s] [ 38%] [32mBuilding CXX object tests/CMakeFiles/test-items_cpp17.dir/src/unit-items.cpp.o[0m
+[34.354s] [ 38%] [32m[1mLinking CXX executable test-hash_cpp11[0m
+[34.765s] [ 38%] Built target test-hash_cpp11
+[34.891s] [ 38%] [32mBuilding CXX object tests/CMakeFiles/test-iterators1_cpp11.dir/src/unit-iterators1.cpp.o[0m
+[35.485s] [ 39%] [32m[1mLinking CXX executable test-items_cpp11[0m
+[35.550s] [ 39%] [32m[1mLinking CXX executable test-inspection_cpp11[0m
+[36.003s] [ 39%] Built target test-items_cpp11
+[36.131s] [ 39%] Built target test-inspection_cpp11
+[36.143s] [ 40%] [32mBuilding CXX object tests/CMakeFiles/test-iterators2_cpp11.dir/src/unit-iterators2.cpp.o[0m
+[36.218s] [ 41%] [32mBuilding CXX object tests/CMakeFiles/test-iterators2_cpp20.dir/src/unit-iterators2.cpp.o[0m
+[37.712s] [ 41%] [32m[1mLinking CXX executable test-conversions_cpp11[0m
+[38.907s] [ 41%] Built target test-conversions_cpp11
+[39.040s] [ 42%] [32mBuilding CXX object tests/CMakeFiles/test-json_patch_cpp11.dir/src/unit-json_patch.cpp.o[0m
+[40.108s] [ 43%] [32m[1mLinking CXX executable test-element_access2_cpp11[0m
+[40.793s] [ 43%] Built target test-element_access2_cpp11
+[40.919s] [ 44%] [32mBuilding CXX object tests/CMakeFiles/test-json_pointer_cpp11.dir/src/unit-json_pointer.cpp.o[0m
+[41.226s] [ 45%] [32m[1mLinking CXX executable test-items_cpp17[0m
+[41.575s] [ 46%] [32m[1mLinking CXX executable test-conversions_cpp17[0m
+[41.694s] [ 46%] Built target test-items_cpp17
+[41.819s] [ 46%] [32mBuilding CXX object tests/CMakeFiles/test-json_pointer_cpp20.dir/src/unit-json_pointer.cpp.o[0m
+[42.078s] [ 47%] [32m[1mLinking CXX executable test-iterators1_cpp11[0m
+[42.481s] [ 47%] Built target test-conversions_cpp17
+[42.514s] [ 47%] [32mBuilding CXX object tests/CMakeFiles/test-large_json_cpp11.dir/src/unit-large_json.cpp.o[0m
+[42.637s] [ 47%] Built target test-iterators1_cpp11
+[42.751s] [ 48%] [32mBuilding CXX object tests/CMakeFiles/test-merge_patch_cpp11.dir/src/unit-merge_patch.cpp.o[0m
+[42.830s] [ 48%] [32m[1mLinking CXX executable test-iterators2_cpp11[0m
+[43.460s] [ 48%] Built target test-iterators2_cpp11
+[43.556s] [ 49%] [32m[1mLinking CXX executable test-element_access2_cpp14[0m
+[43.608s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/test-meta_cpp11.dir/src/unit-meta.cpp.o[0m
+[44.239s] [ 50%] Built target test-element_access2_cpp14
+[44.338s] [ 51%] [32mBuilding CXX object tests/CMakeFiles/test-modifiers_cpp11.dir/src/unit-modifiers.cpp.o[0m
+[45.829s] [ 52%] [32m[1mLinking CXX executable test-element_access2_cpp17[0m
+[46.463s] [ 52%] [32m[1mLinking CXX executable test-iterators2_cpp20[0m
+[46.496s] [ 52%] Built target test-element_access2_cpp17
+[46.541s] [ 52%] [32mBuilding CXX object tests/CMakeFiles/test-msgpack_cpp11.dir/src/unit-msgpack.cpp.o[0m
+[46.562s] [ 53%] [32m[1mLinking CXX executable test-large_json_cpp11[0m
+[46.992s] [ 53%] Built target test-iterators2_cpp20
+[47.033s] [ 53%] [32mBuilding CXX object tests/CMakeFiles/test-no-mem-leak-on-adl-serialize_cpp11.dir/src/unit-no-mem-leak-on-adl-serialize.cpp.o[0m
+[47.119s] [ 53%] Built target test-large_json_cpp11
+[47.178s] [ 54%] [32mBuilding CXX object tests/CMakeFiles/test-noexcept_cpp11.dir/src/unit-noexcept.cpp.o[0m
+[47.204s] [ 55%] [32m[1mLinking CXX executable test-deserialization_cpp11[0m
+[48.059s] [ 55%] Built target test-deserialization_cpp11
+[48.195s] [ 56%] [32mBuilding CXX object tests/CMakeFiles/test-ordered_json_cpp11.dir/src/unit-ordered_json.cpp.o[0m
+[49.150s] [ 56%] [32m[1mLinking CXX executable test-json_patch_cpp11[0m
+[49.186s] [ 56%] [32m[1mLinking CXX executable test-merge_patch_cpp11[0m
+[49.479s] [ 56%] [32m[1mLinking CXX executable test-meta_cpp11[0m
+[49.621s] [ 56%] Built target test-merge_patch_cpp11
+[49.735s] [ 57%] [32m[1mLinking CXX executable test-noexcept_cpp11[0m
+[49.735s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/test-ordered_map_cpp11.dir/src/unit-ordered_map.cpp.o[0m
+[49.831s] [ 57%] Built target test-json_patch_cpp11
+[49.957s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/test-pointer_access_cpp11.dir/src/unit-pointer_access.cpp.o[0m
+[50.031s] [ 57%] Built target test-meta_cpp11
+[50.155s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/test-readme_cpp11.dir/src/unit-readme.cpp.o[0m
+[50.207s] [ 57%] Built target test-noexcept_cpp11
+[50.311s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/test-reference_access_cpp11.dir/src/unit-reference_access.cpp.o[0m
+[50.636s] [ 58%] [32m[1mLinking CXX executable test-no-mem-leak-on-adl-serialize_cpp11[0m
+[51.063s] [ 58%] Built target test-no-mem-leak-on-adl-serialize_cpp11
+[51.208s] [ 59%] [32mBuilding CXX object tests/CMakeFiles/test-regression1_cpp11.dir/src/unit-regression1.cpp.o[0m
+[51.271s] [ 60%] [32m[1mLinking CXX executable test-json_pointer_cpp11[0m
+[52.056s] [ 60%] Built target test-json_pointer_cpp11
+[52.163s] [ 61%] [32mBuilding CXX object tests/CMakeFiles/test-regression1_cpp17.dir/src/unit-regression1.cpp.o[0m
+[53.552s] [ 62%] [32m[1mLinking CXX executable test-ordered_map_cpp11[0m
+[53.588s] [ 63%] [32m[1mLinking CXX executable test-modifiers_cpp11[0m
+[53.913s] [ 63%] Built target test-modifiers_cpp11
+[53.947s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp11.dir/src/unit-regression2.cpp.o[0m
+[53.989s] [ 64%] Built target test-ordered_map_cpp11
+[54.020s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp17.dir/src/unit-regression2.cpp.o[0m
+[55.543s] [ 64%] [32m[1mLinking CXX executable test-ordered_json_cpp11[0m
+[55.746s] [ 65%] [32m[1mLinking CXX executable test-json_pointer_cpp20[0m
+[56.087s] [ 65%] Built target test-ordered_json_cpp11
+[56.119s] [ 65%] [32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp20.dir/src/unit-regression2.cpp.o[0m
+[56.128s] [ 65%] Built target test-json_pointer_cpp20
+[56.162s] [ 66%] [32mBuilding CXX object tests/CMakeFiles/test-serialization_cpp11.dir/src/unit-serialization.cpp.o[0m
+[56.891s] [ 67%] [32m[1mLinking CXX executable test-pointer_access_cpp11[0m
+[56.953s] [ 68%] [32m[1mLinking CXX executable test-reference_access_cpp11[0m
+[57.327s] [ 68%] Built target test-pointer_access_cpp11
+[57.463s] [ 69%] [32mBuilding CXX object tests/CMakeFiles/test-testsuites_cpp11.dir/src/unit-testsuites.cpp.o[0m
+[57.571s] [ 69%] Built target test-reference_access_cpp11
+[57.719s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/test-to_chars_cpp11.dir/src/unit-to_chars.cpp.o[0m
+[60.635s] [ 71%] [32m[1mLinking CXX executable test-msgpack_cpp11[0m
+[60.699s] [ 72%] [32m[1mLinking CXX executable test-readme_cpp11[0m
+[61.007s] [ 72%] [32m[1mLinking CXX executable test-serialization_cpp11[0m
+[61.129s] [ 72%] Built target test-readme_cpp11
+[61.164s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/test-type_traits_cpp11.dir/src/unit-type_traits.cpp.o[0m
+[61.492s] [ 72%] Built target test-msgpack_cpp11
+[61.568s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/test-ubjson_cpp11.dir/src/unit-ubjson.cpp.o[0m
+[61.599s] [ 72%] Built target test-serialization_cpp11
+[61.703s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/test-udl_cpp11.dir/src/unit-udl.cpp.o[0m
+[61.858s] [ 73%] [32m[1mLinking CXX executable test-to_chars_cpp11[0m
+[61.911s] [ 74%] [32m[1mLinking CXX executable test-type_traits_cpp11[0m
+[62.384s] [ 74%] Built target test-to_chars_cpp11
+[62.391s] [ 74%] Built target test-type_traits_cpp11
+[62.529s] [ 75%] [32mBuilding CXX object tests/CMakeFiles/test-udt_cpp11.dir/src/unit-udt.cpp.o[0m
+[62.553s] [ 76%] [32mBuilding CXX object tests/CMakeFiles/test-udt_macro_cpp11.dir/src/unit-udt_macro.cpp.o[0m
+[66.187s] [ 76%] [32m[1mLinking CXX executable test-testsuites_cpp11[0m
+[66.817s] [ 76%] Built target test-testsuites_cpp11
+[66.930s] [ 77%] [32mBuilding CXX object tests/CMakeFiles/test-unicode1_cpp11.dir/src/unit-unicode1.cpp.o[0m
+[67.351s] [ 78%] [32m[1mLinking CXX executable test-udl_cpp11[0m
+[67.705s] [ 78%] Built target test-udl_cpp11
+[67.747s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/test-unicode2_cpp11.dir/src/unit-unicode2.cpp.o[0m
+[72.653s] [ 78%] [32m[1mLinking CXX executable test-udt_macro_cpp11[0m
+[72.961s] [ 79%] [32m[1mLinking CXX executable test-unicode2_cpp11[0m
+[73.030s] [ 80%] [32m[1mLinking CXX executable test-unicode1_cpp11[0m
+[73.134s] [ 80%] Built target test-udt_macro_cpp11
+[73.165s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/test-unicode3_cpp11.dir/src/unit-unicode3.cpp.o[0m
+[73.473s] [ 80%] Built target test-unicode1_cpp11
+[73.527s] [ 80%] Built target test-unicode2_cpp11
+[73.615s] [ 81%] [32mBuilding CXX object tests/CMakeFiles/test-unicode4_cpp11.dir/src/unit-unicode4.cpp.o[0m
+[73.619s] [ 82%] [32mBuilding CXX object tests/CMakeFiles/test-unicode5_cpp11.dir/src/unit-unicode5.cpp.o[0m
+[74.023s] [ 82%] [32m[1mLinking CXX executable test-regression1_cpp11[0m
+[74.872s] [ 82%] Built target test-regression1_cpp11
+[74.969s] [ 83%] [32mBuilding CXX object tests/CMakeFiles/test-user_defined_input_cpp11.dir/src/unit-user_defined_input.cpp.o[0m
+[76.871s] [ 83%] [32m[1mLinking CXX executable test-udt_cpp11[0m
+[77.391s] [ 83%] Built target test-udt_cpp11
+[77.465s] [ 84%] [32m[1mLinking CXX executable test-regression2_cpp11[0m
+[77.487s] [ 84%] [32mBuilding CXX object tests/CMakeFiles/test-windows_h_cpp11.dir/src/unit-windows_h.cpp.o[0m
+[77.498s] [ 85%] [32m[1mLinking CXX executable test-unicode3_cpp11[0m
+[77.881s] [ 85%] Built target test-unicode3_cpp11
+[78.001s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/test-wstring_cpp11.dir/src/unit-wstring.cpp.o[0m
+[78.160s] [ 86%] [32m[1mLinking CXX executable test-ubjson_cpp11[0m
+[78.283s] [ 86%] Built target test-regression2_cpp11
+[78.287s] [ 86%] [32m[1mLinking CXX executable test-unicode4_cpp11[0m
+[78.434s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/test-comparison_legacy_cpp11.dir/src/unit-comparison.cpp.o[0m
+[78.506s] [ 87%] [32m[1mLinking CXX executable test-regression1_cpp17[0m
+[78.721s] [ 87%] Built target test-unicode4_cpp11
+[78.754s] [ 87%] Built target test-ubjson_cpp11
+[78.811s] [ 88%] [32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_default.dir/default.cpp.o[0m
+[78.852s] [ 89%] [32mBuilding CXX object tests/CMakeFiles/test-comparison_legacy_cpp20.dir/src/unit-comparison.cpp.o[0m
+[78.911s] [ 89%] [32m[1mLinking CXX executable test-unicode5_cpp11[0m
+[79.092s] [ 90%] [32m[1mLinking CXX executable test-regression2_cpp17[0m
+[79.356s] [ 90%] Built target test-regression1_cpp17
+[79.407s] [ 90%] Built target test-unicode5_cpp11
+[79.836s] [ 90%] Built target test-regression2_cpp17
+[79.851s] [ 91%] [32m[1mLinking CXX executable test-user_defined_input_cpp11[0m
+[80.066s] [ 92%] [32m[1mLinking CXX executable test-windows_h_cpp11[0m
+[80.117s] [ 92%] Built target test-user_defined_input_cpp11
+[80.259s] [ 92%] Built target test-windows_h_cpp11
+[81.412s] [ 93%] [32m[1mLinking CXX executable test-regression2_cpp20[0m
+[81.913s] [ 93%] Built target test-regression2_cpp20
+[82.332s] [ 93%] [32m[1mLinking CXX executable test-comparison_legacy_cpp11[0m
+[82.496s] [ 94%] [32m[1mLinking CXX executable test-wstring_cpp11[0m
+[82.569s] [ 94%] Built target test-comparison_legacy_cpp11
+[82.581s] [ 94%] [32m[1mLinking CXX executable abi_config_default[0m
+[82.721s] [ 94%] Built target test-wstring_cpp11
+[82.790s] [ 94%] Built target abi_config_default
+[84.161s] [ 94%] [32m[1mLinking CXX executable test-comparison_legacy_cpp20[0m
+[84.340s] [ 94%] Built target test-comparison_legacy_cpp20
+[84.360s] [ 95%] [32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag.dir/diag.cpp.o[0m
+[84.360s] [ 95%] [32mBuilding CXX object tests/abi/inline_ns/CMakeFiles/abi_compat_inline_ns.dir/use_current.cpp.o[0m
+[84.360s] [ 95%] [32mBuilding CXX object tests/abi/inline_ns/CMakeFiles/abi_compat_inline_ns.dir/use_v3_10_5.cpp.o[0m
+[84.439s] [ 96%] [32m[1mLinking CXX executable abi_compat_diag[0m
+[84.624s] [ 96%] Built target abi_compat_diag
+[84.648s] [ 98%] [32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_custom.dir/custom.cpp.o[0m
+[84.648s] [ 98%] [32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_noversion.dir/noversion.cpp.o[0m
+[87.340s] [ 99%] [32m[1mLinking CXX executable abi_compat_inline_ns[0m
+[87.562s] [ 99%] [32m[1mLinking CXX executable abi_config_custom[0m
+[87.566s] [ 99%] Built target abi_compat_inline_ns
+[87.599s] [100%] [32m[1mLinking CXX executable abi_config_noversion[0m
+[87.750s] [100%] Built target abi_config_custom
+[87.784s] [100%] Built target abi_config_noversion
+[87.799s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json' returned '0': /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json -- -j10 -l10
+[87.897s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json': /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json
+[87.905s] -- Install configuration: ""
+[87.906s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include
+[87.906s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann
+[87.906s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/adl_serializer.hpp
+[87.906s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail
+[87.907s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input
+[87.907s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp
+[87.907s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/lexer.hpp
+[87.907s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp
+[87.907s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/position_t.hpp
+[87.907s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/parser.hpp
+[87.907s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp
+[87.908s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_ref.hpp
+[87.908s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta
+[87.908s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp
+[87.908s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp
+[87.908s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std
+[87.908s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp
+[87.908s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp
+[87.909s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/detected.hpp
+[87.909s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp
+[87.909s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp
+[87.909s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp
+[87.909s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp
+[87.909s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/string_escape.hpp
+[87.909s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/abi_macros.hpp
+[87.909s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/hash.hpp
+[87.910s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output
+[87.910s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/serializer.hpp
+[87.910s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp
+[87.910s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp
+[87.910s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp
+[87.910s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_pointer.hpp
+[87.911s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/value_t.hpp
+[87.911s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions
+[87.911s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp
+[87.911s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp
+[87.911s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp
+[87.911s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp
+[87.911s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/string_concat.hpp
+[87.912s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/macro_scope.hpp
+[87.912s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators
+[87.912s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp
+[87.912s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp
+[87.912s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+[87.912s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp
+[87.912s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp
+[87.912s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp
+[87.913s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/exceptions.hpp
+[87.913s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/ordered_map.hpp
+[87.913s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/json.hpp
+[87.913s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/json_fwd.hpp
+[87.913s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty
+[87.914s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley
+[87.914s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+[87.914s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp
+[87.914s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp
+[87.914s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+[87.914s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+[87.915s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+[87.915s] -- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/pkgconfig/nlohmann_json.pc
+[87.917s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json' returned '0': /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json

@@ -1,0 +1,6 @@
+[01m[K/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/src/trajectory_publisher_node.cpp:109:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  109 |     [01;31m[Kauto[m[K message2 = std_msgs::msg::Int32();
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_control_node.dir/build.make:76: CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

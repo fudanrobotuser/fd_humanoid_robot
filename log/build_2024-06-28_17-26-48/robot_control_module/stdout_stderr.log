@@ -1,0 +1,21 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable robot_control_node[0m
+[100%] Built target robot_control_node
+-- Install configuration: ""
+-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/robot_control_module/robot_control_node
+-- Set runtime path of "/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/robot_control_module/robot_control_node" to ""
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/package_run_dependencies/robot_control_module
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/parent_prefix_path/robot_control_module
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/path.sh
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/path.dsv
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.bash
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.sh
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.zsh
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.dsv
+-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.dsv
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/packages/robot_control_module
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/cmake/robot_control_moduleConfig.cmake
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/cmake/robot_control_moduleConfig-version.cmake
+-- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.xml

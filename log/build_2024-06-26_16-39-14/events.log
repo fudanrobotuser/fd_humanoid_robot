@@ -1,0 +1,1401 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (neural_network_module) JobQueued: {'identifier': 'neural_network_module', 'dependencies': OrderedDict()}
+[0.000608] (nlohmann_json) JobQueued: {'identifier': 'nlohmann_json', 'dependencies': OrderedDict()}
+[0.000773] (robot_control_module) JobQueued: {'identifier': 'robot_control_module', 'dependencies': OrderedDict()}
+[0.000907] (sensor_module) JobQueued: {'identifier': 'sensor_module', 'dependencies': OrderedDict()}
+[0.000963] (neural_network_module) JobStarted: {'identifier': 'neural_network_module'}
+[0.008403] (nlohmann_json) JobStarted: {'identifier': 'nlohmann_json'}
+[0.011370] (robot_control_module) JobStarted: {'identifier': 'robot_control_module'}
+[0.014526] (sensor_module) JobStarted: {'identifier': 'sensor_module'}
+[0.099733] (-) TimerEvent: {}
+[0.199992] (-) TimerEvent: {}
+[0.295174] (nlohmann_json) JobProgress: {'identifier': 'nlohmann_json', 'progress': 'cmake'}
+[0.295402] (nlohmann_json) Command: {'cmd': ['/usr/bin/cmake', '/home/fudanrobotuser/fd_humanoid_robot/src/json-develop', '-DCMAKE_INSTALL_PREFIX=/home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.298141] (robot_control_module) JobProgress: {'identifier': 'robot_control_module', 'progress': 'cmake'}
+[0.298479] (robot_control_module) Command: {'cmd': ['/usr/bin/cmake', '/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module', '-DCMAKE_INSTALL_PREFIX=/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.300783] (-) TimerEvent: {}
+[0.301637] (sensor_module) JobProgress: {'identifier': 'sensor_module', 'progress': 'cmake'}
+[0.302042] (sensor_module) Command: {'cmd': ['/usr/bin/cmake', '/home/fudanrobotuser/fd_humanoid_robot/src/sensor_module', '-DCMAKE_INSTALL_PREFIX=/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.367299] (sensor_module) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.367601] (robot_control_module) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400897] (-) TimerEvent: {}
+[0.419600] (nlohmann_json) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.432972] (nlohmann_json) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.435747] (robot_control_module) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.436488] (sensor_module) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.445092] (robot_control_module) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.445297] (sensor_module) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501006] (-) TimerEvent: {}
+[0.524591] (sensor_module) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.524817] (robot_control_module) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.528038] (nlohmann_json) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.534002] (sensor_module) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.534343] (robot_control_module) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.534776] (sensor_module) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.534896] (robot_control_module) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.535446] (sensor_module) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.535564] (robot_control_module) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.537991] (nlohmann_json) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.538324] (nlohmann_json) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.538903] (nlohmann_json) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.539215] (robot_control_module) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.539356] (sensor_module) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.548192] (nlohmann_json) StdoutLine: {'line': b'-- Using the multi-header code from /home/fudanrobotuser/fd_humanoid_robot/src/json-develop/include/\n'}
+[0.576318] (nlohmann_json) StdoutLine: {'line': b'-- Found Git: /usr/bin/git (found version "2.34.1") \n'}
+[0.601110] (-) TimerEvent: {}
+[0.628619] (sensor_module) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.629359] (robot_control_module) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.639249] (sensor_module) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.639597] (sensor_module) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.640203] (sensor_module) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.640654] (robot_control_module) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.641054] (robot_control_module) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.641201] (nlohmann_json) StdoutLine: {'line': b'-- Operating system: Linux-5.15.0-1064-realtime; Distributor ID:\tUbuntu; Description:\tUbuntu 22.04.4 LTS; Release:\t22.04; Codename:\tjammy; Linux fudanrobotuser-Not-Specified 5.15.0-1064-realtime #72-Ubuntu SMP PREEMPT_RT Wed May 15 15:52:13 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux\n'}
+[0.641716] (robot_control_module) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.643280] (nlohmann_json) StdoutLine: {'line': b'-- Compiler: c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0; Copyright (C) 2021 Free Software Foundation, Inc.; This is free software; see the source for copying conditions.  There is NO; warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n'}
+[0.643579] (sensor_module) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.644339] (nlohmann_json) StdoutLine: {'line': b'-- Testing standards: 11 14 17 20 23\n'}
+[0.644579] (robot_control_module) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.646428] (nlohmann_json) StdoutLine: {'line': b'-- Looking for C++ include sys/types.h\n'}
+[0.701219] (-) TimerEvent: {}
+[0.741321] (nlohmann_json) StdoutLine: {'line': b'-- Looking for C++ include sys/types.h - found\n'}
+[0.741703] (nlohmann_json) StdoutLine: {'line': b'-- Looking for C++ include stdint.h\n'}
+[0.801316] (-) TimerEvent: {}
+[0.809232] (neural_network_module) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/neural_network_module', 'build', '--build-base', '/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build', 'install', '--record', '/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/src/neural_network_module', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fudanrobotuser', 'SSH_CLIENT': '192.168.50.54 59156 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/fudanrobotuser', 'OLDPWD': '/home/fudanrobotuser', 'SSH_TTY': '/dev/pts/14', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fudanrobotuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '25', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:14.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'PWD': '/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.54 59156 192.168.50.89 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/prefix_override:/home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[0.811549] (sensor_module) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.811688] (robot_control_module) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.836264] (nlohmann_json) StdoutLine: {'line': b'-- Looking for C++ include stdint.h - found\n'}
+[0.836594] (nlohmann_json) StdoutLine: {'line': b'-- Looking for C++ include stddef.h\n'}
+[0.901419] (-) TimerEvent: {}
+[0.927656] (nlohmann_json) StdoutLine: {'line': b'-- Looking for C++ include stddef.h - found\n'}
+[0.927872] (nlohmann_json) StdoutLine: {'line': b'-- Check size of size_t\n'}
+[0.933056] (robot_control_module) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.933210] (sensor_module) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.997431] (sensor_module) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.997642] (robot_control_module) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.001503] (-) TimerEvent: {}
+[1.005007] (robot_control_module) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.005137] (sensor_module) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.019641] (robot_control_module) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.019831] (sensor_module) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.021203] (nlohmann_json) StdoutLine: {'line': b'-- Check size of size_t - done\n'}
+[1.041402] (sensor_module) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.041554] (robot_control_module) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.054164] (nlohmann_json) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.070110] (sensor_module) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.070302] (robot_control_module) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.075384] (neural_network_module) StdoutLine: {'line': b'running egg_info\n'}
+[1.076208] (neural_network_module) StdoutLine: {'line': b'creating ../../build/neural_network_module/neural_network_module.egg-info\n'}
+[1.076387] (neural_network_module) StdoutLine: {'line': b'writing ../../build/neural_network_module/neural_network_module.egg-info/PKG-INFO\n'}
+[1.076656] (neural_network_module) StdoutLine: {'line': b'writing dependency_links to ../../build/neural_network_module/neural_network_module.egg-info/dependency_links.txt\n'}
+[1.076828] (neural_network_module) StdoutLine: {'line': b'writing entry points to ../../build/neural_network_module/neural_network_module.egg-info/entry_points.txt\n'}
+[1.076951] (neural_network_module) StdoutLine: {'line': b'writing requirements to ../../build/neural_network_module/neural_network_module.egg-info/requires.txt\n'}
+[1.077065] (neural_network_module) StdoutLine: {'line': b'writing top-level names to ../../build/neural_network_module/neural_network_module.egg-info/top_level.txt\n'}
+[1.077241] (neural_network_module) StdoutLine: {'line': b"writing manifest file '../../build/neural_network_module/neural_network_module.egg-info/SOURCES.txt'\n"}
+[1.078947] (neural_network_module) StdoutLine: {'line': b"reading manifest file '../../build/neural_network_module/neural_network_module.egg-info/SOURCES.txt'\n"}
+[1.080029] (neural_network_module) StdoutLine: {'line': b"writing manifest file '../../build/neural_network_module/neural_network_module.egg-info/SOURCES.txt'\n"}
+[1.080198] (neural_network_module) StdoutLine: {'line': b'running build\n'}
+[1.080310] (neural_network_module) StdoutLine: {'line': b'running build_py\n'}
+[1.080416] (neural_network_module) StdoutLine: {'line': b'creating /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build\n'}
+[1.080537] (neural_network_module) StdoutLine: {'line': b'creating /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build/lib\n'}
+[1.080639] (neural_network_module) StdoutLine: {'line': b'creating /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build/lib/neural_network_module\n'}
+[1.080742] (neural_network_module) StdoutLine: {'line': b'copying neural_network_module/neural_network_node.py -> /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build/lib/neural_network_module\n'}
+[1.080826] (neural_network_module) StdoutLine: {'line': b'copying neural_network_module/__init__.py -> /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build/lib/neural_network_module\n'}
+[1.080934] (neural_network_module) StdoutLine: {'line': b'running install\n'}
+[1.081285] (neural_network_module) StdoutLine: {'line': b'running install_lib\n'}
+[1.081987] (neural_network_module) StdoutLine: {'line': b'creating /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages/neural_network_module\n'}
+[1.082110] (neural_network_module) StdoutLine: {'line': b'copying /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build/lib/neural_network_module/neural_network_node.py -> /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages/neural_network_module\n'}
+[1.082244] (neural_network_module) StdoutLine: {'line': b'copying /home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/build/lib/neural_network_module/__init__.py -> /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages/neural_network_module\n'}
+[1.082800] (neural_network_module) StdoutLine: {'line': b'byte-compiling /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages/neural_network_module/neural_network_node.py to neural_network_node.cpython-310.pyc\n'}
+[1.083393] (neural_network_module) StdoutLine: {'line': b'byte-compiling /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages/neural_network_module/__init__.py to __init__.cpython-310.pyc\n'}
+[1.083578] (neural_network_module) StdoutLine: {'line': b'running install_data\n'}
+[1.083686] (neural_network_module) StdoutLine: {'line': b'creating /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/ament_index\n'}
+[1.083802] (neural_network_module) StdoutLine: {'line': b'creating /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/ament_index/resource_index\n'}
+[1.083901] (neural_network_module) StdoutLine: {'line': b'creating /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/ament_index/resource_index/packages\n'}
+[1.083994] (neural_network_module) StdoutLine: {'line': b'copying resource/neural_network_module -> /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/ament_index/resource_index/packages\n'}
+[1.084097] (neural_network_module) StdoutLine: {'line': b'copying package.xml -> /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/share/neural_network_module\n'}
+[1.084202] (neural_network_module) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.086090] (neural_network_module) StdoutLine: {'line': b'Copying ../../build/neural_network_module/neural_network_module.egg-info to /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/python3.10/site-packages/neural_network_module-0.0.0-py3.10.egg-info\n'}
+[1.087177] (neural_network_module) StdoutLine: {'line': b'running install_scripts\n'}
+[1.101601] (-) TimerEvent: {}
+[1.111584] (neural_network_module) StdoutLine: {'line': b'Installing neural_network_node script to /home/fudanrobotuser/fd_humanoid_robot/install/neural_network_module/lib/neural_network_module\n'}
+[1.111984] (neural_network_module) StdoutLine: {'line': b"writing list of installed files to '/home/fudanrobotuser/fd_humanoid_robot/build/neural_network_module/install.log'\n"}
+[1.136592] (neural_network_module) CommandEnded: {'returncode': 0}
+[1.148088] (neural_network_module) JobEnded: {'identifier': 'neural_network_module', 'rc': 0}
+[1.173867] (sensor_module) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.174048] (robot_control_module) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.178004] (sensor_module) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.178113] (robot_control_module) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201687] (-) TimerEvent: {}
+[1.204513] (nlohmann_json) StdoutLine: {'line': b'-- Generating done\n'}
+[1.216318] (nlohmann_json) StdoutLine: {'line': b'-- Build files have been written to: /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json\n'}
+[1.221108] (nlohmann_json) CommandEnded: {'returncode': 0}
+[1.221632] (nlohmann_json) JobProgress: {'identifier': 'nlohmann_json', 'progress': 'build'}
+[1.222639] (nlohmann_json) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json', '--', '-j10', '-l10'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[1.276063] (nlohmann_json) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag_off.dir/diag_off.cpp.o\x1b[0m\n'}
+[1.276392] (nlohmann_json) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object tests/CMakeFiles/test_main.dir/src/unit.cpp.o\x1b[0m\n'}
+[1.276592] (nlohmann_json) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object tests/abi/CMakeFiles/abi_compat_main.dir/main.cpp.o\x1b[0m\n'}
+[1.276713] (nlohmann_json) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag_on.dir/diag_on.cpp.o\x1b[0m\n'}
+[1.301807] (-) TimerEvent: {}
+[1.303315] (sensor_module) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.303661] (robot_control_module) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.331880] (robot_control_module) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.332689] (sensor_module) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.385068] (robot_control_module) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.385350] (sensor_module) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.399576] (sensor_module) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.399751] (robot_control_module) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.401881] (-) TimerEvent: {}
+[1.492009] (robot_control_module) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.492231] (sensor_module) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.492363] (sensor_module) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.492470] (robot_control_module) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.502009] (-) TimerEvent: {}
+[1.581372] (sensor_module) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.583013] (sensor_module) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.584324] (robot_control_module) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.585663] (robot_control_module) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.602130] (-) TimerEvent: {}
+[1.702547] (-) TimerEvent: {}
+[1.802961] (-) TimerEvent: {}
+[1.858944] (sensor_module) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.859389] (robot_control_module) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.903068] (-) TimerEvent: {}
+[1.928619] (robot_control_module) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[2.003177] (-) TimerEvent: {}
+[2.063113] (robot_control_module) StdoutLine: {'line': b'-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[2.103284] (-) TimerEvent: {}
+[2.142670] (sensor_module) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.156840] (sensor_module) StdoutLine: {'line': b'-- Generating done\n'}
+[2.159106] (sensor_module) StdoutLine: {'line': b'-- Build files have been written to: /home/fudanrobotuser/fd_humanoid_robot/build/sensor_module\n'}
+[2.170165] (sensor_module) CommandEnded: {'returncode': 0}
+[2.170567] (sensor_module) JobProgress: {'identifier': 'sensor_module', 'progress': 'build'}
+[2.170605] (sensor_module) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module', '--', '-j10', '-l10'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.203398] (-) TimerEvent: {}
+[2.226054] (sensor_module) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sensor_node.dir/src/sensor_node.cpp.o\x1b[0m\n'}
+[2.303513] (-) TimerEvent: {}
+[2.403910] (-) TimerEvent: {}
+[2.504458] (-) TimerEvent: {}
+[2.604853] (-) TimerEvent: {}
+[2.705221] (-) TimerEvent: {}
+[2.736529] (robot_control_module) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.805331] (-) TimerEvent: {}
+[2.905855] (-) TimerEvent: {}
+[2.930123] (robot_control_module) StdoutLine: {'line': b'-- Generating done\n'}
+[2.932632] (robot_control_module) StdoutLine: {'line': b'-- Build files have been written to: /home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module\n'}
+[2.945489] (robot_control_module) CommandEnded: {'returncode': 0}
+[2.945889] (robot_control_module) JobProgress: {'identifier': 'robot_control_module', 'progress': 'build'}
+[2.945927] (robot_control_module) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module', '--', '-j10', '-l10'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.005969] (-) TimerEvent: {}
+[3.033376] (robot_control_module) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/csv_read.cpp.o\x1b[0m\n'}
+[3.033691] (robot_control_module) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/trajectory_publisher_node.cpp.o\x1b[0m\n'}
+[3.106088] (-) TimerEvent: {}
+[3.206513] (-) TimerEvent: {}
+[3.306859] (-) TimerEvent: {}
+[3.407308] (-) TimerEvent: {}
+[3.507735] (-) TimerEvent: {}
+[3.608155] (-) TimerEvent: {}
+[3.663234] (nlohmann_json) StdoutLine: {'line': b'[  2%] \x1b[32m\x1b[1mLinking CXX static library libabi_compat_diag_off.a\x1b[0m\n'}
+[3.708277] (-) TimerEvent: {}
+[3.721118] (nlohmann_json) StdoutLine: {'line': b'[  2%] Built target abi_compat_diag_off\n'}
+[3.776202] (nlohmann_json) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking CXX static library libabi_compat_diag_on.a\x1b[0m\n'}
+[3.808389] (-) TimerEvent: {}
+[3.831751] (nlohmann_json) StdoutLine: {'line': b'[  3%] Built target abi_compat_diag_on\n'}
+[3.907919] (nlohmann_json) StdoutLine: {'line': b'[  3%] Built target test_main\n'}
+[3.908473] (-) TimerEvent: {}
+[3.948161] (nlohmann_json) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-allocator_cpp11.dir/src/unit-allocator.cpp.o\x1b[0m\n'}
+[3.951420] (nlohmann_json) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-alt-string_cpp11.dir/src/unit-alt-string.cpp.o\x1b[0m\n'}
+[3.959844] (nlohmann_json) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-algorithms_cpp11.dir/src/unit-algorithms.cpp.o\x1b[0m\n'}
+[3.962545] (nlohmann_json) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-assert_macro_cpp11.dir/src/unit-assert_macro.cpp.o\x1b[0m\n'}
+[3.962752] (nlohmann_json) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-bjdata_cpp11.dir/src/unit-bjdata.cpp.o\x1b[0m\n'}
+[3.966816] (nlohmann_json) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-binary_formats_cpp11.dir/src/unit-binary_formats.cpp.o\x1b[0m\n'}
+[3.975080] (nlohmann_json) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-bson_cpp11.dir/src/unit-bson.cpp.o\x1b[0m\n'}
+[3.982949] (nlohmann_json) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-capacity_cpp11.dir/src/unit-capacity.cpp.o\x1b[0m\n'}
+[4.008209] (nlohmann_json) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-byte_container_with_subtype_cpp11.dir/src/unit-byte_container_with_subtype.cpp.o\x1b[0m\n'}
+[4.008553] (-) TimerEvent: {}
+[4.063714] (nlohmann_json) StdoutLine: {'line': b'[  9%] \x1b[32m\x1b[1mLinking CXX static library libabi_compat_main.a\x1b[0m\n'}
+[4.108723] (-) TimerEvent: {}
+[4.176853] (nlohmann_json) StdoutLine: {'line': b'[  9%] Built target abi_compat_main\n'}
+[4.208845] (-) TimerEvent: {}
+[4.296128] (nlohmann_json) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-cbor_cpp11.dir/src/unit-cbor.cpp.o\x1b[0m\n'}
+[4.308962] (-) TimerEvent: {}
+[4.409360] (-) TimerEvent: {}
+[4.509731] (-) TimerEvent: {}
+[4.610157] (-) TimerEvent: {}
+[4.710566] (-) TimerEvent: {}
+[4.810974] (-) TimerEvent: {}
+[4.911418] (-) TimerEvent: {}
+[5.011833] (-) TimerEvent: {}
+[5.112249] (-) TimerEvent: {}
+[5.212602] (-) TimerEvent: {}
+[5.312954] (-) TimerEvent: {}
+[5.413317] (-) TimerEvent: {}
+[5.513680] (-) TimerEvent: {}
+[5.614026] (-) TimerEvent: {}
+[5.714379] (-) TimerEvent: {}
+[5.814731] (-) TimerEvent: {}
+[5.915086] (-) TimerEvent: {}
+[6.015476] (-) TimerEvent: {}
+[6.115829] (-) TimerEvent: {}
+[6.216206] (-) TimerEvent: {}
+[6.316557] (-) TimerEvent: {}
+[6.416911] (-) TimerEvent: {}
+[6.517266] (-) TimerEvent: {}
+[6.617648] (-) TimerEvent: {}
+[6.718004] (-) TimerEvent: {}
+[6.818361] (-) TimerEvent: {}
+[6.918708] (-) TimerEvent: {}
+[7.019057] (-) TimerEvent: {}
+[7.119401] (-) TimerEvent: {}
+[7.219758] (-) TimerEvent: {}
+[7.320130] (-) TimerEvent: {}
+[7.328756] (nlohmann_json) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX executable test-assert_macro_cpp11\x1b[0m\n'}
+[7.420250] (-) TimerEvent: {}
+[7.448246] (nlohmann_json) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX executable test-byte_container_with_subtype_cpp11\x1b[0m\n'}
+[7.520367] (-) TimerEvent: {}
+[7.620723] (-) TimerEvent: {}
+[7.721072] (-) TimerEvent: {}
+[7.733790] (nlohmann_json) StdoutLine: {'line': b'[ 11%] Built target test-byte_container_with_subtype_cpp11\n'}
+[7.821201] (-) TimerEvent: {}
+[7.823837] (nlohmann_json) StdoutLine: {'line': b'[ 11%] Built target test-assert_macro_cpp11\n'}
+[7.849924] (nlohmann_json) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-class_const_iterator_cpp11.dir/src/unit-class_const_iterator.cpp.o\x1b[0m\n'}
+[7.921352] (-) TimerEvent: {}
+[7.941527] (nlohmann_json) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-class_iterator_cpp11.dir/src/unit-class_iterator.cpp.o\x1b[0m\n'}
+[8.021478] (-) TimerEvent: {}
+[8.121899] (-) TimerEvent: {}
+[8.222351] (-) TimerEvent: {}
+[8.322757] (-) TimerEvent: {}
+[8.423169] (-) TimerEvent: {}
+[8.452226] (nlohmann_json) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking CXX executable test-capacity_cpp11\x1b[0m\n'}
+[8.523294] (-) TimerEvent: {}
+[8.623659] (-) TimerEvent: {}
+[8.724062] (-) TimerEvent: {}
+[8.724376] (nlohmann_json) StdoutLine: {'line': b'[ 14%] Built target test-capacity_cpp11\n'}
+[8.748004] (nlohmann_json) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-class_lexer_cpp11.dir/src/unit-class_lexer.cpp.o\x1b[0m\n'}
+[8.824202] (-) TimerEvent: {}
+[8.924595] (-) TimerEvent: {}
+[9.024996] (-) TimerEvent: {}
+[9.125395] (-) TimerEvent: {}
+[9.225809] (-) TimerEvent: {}
+[9.326235] (-) TimerEvent: {}
+[9.426634] (-) TimerEvent: {}
+[9.527033] (-) TimerEvent: {}
+[9.627437] (-) TimerEvent: {}
+[9.727840] (-) TimerEvent: {}
+[9.828237] (-) TimerEvent: {}
+[9.928588] (-) TimerEvent: {}
+[10.028932] (-) TimerEvent: {}
+[10.129289] (-) TimerEvent: {}
+[10.141917] (nlohmann_json) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX executable test-algorithms_cpp11\x1b[0m\n'}
+[10.229408] (-) TimerEvent: {}
+[10.329754] (-) TimerEvent: {}
+[10.430128] (-) TimerEvent: {}
+[10.530491] (-) TimerEvent: {}
+[10.630834] (-) TimerEvent: {}
+[10.731179] (-) TimerEvent: {}
+[10.739908] (nlohmann_json) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX executable test-allocator_cpp11\x1b[0m\n'}
+[10.751987] (nlohmann_json) StdoutLine: {'line': b'[ 16%] Built target test-algorithms_cpp11\n'}
+[10.796715] (nlohmann_json) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-class_parser_cpp11.dir/src/unit-class_parser.cpp.o\x1b[0m\n'}
+[10.831306] (-) TimerEvent: {}
+[10.931719] (-) TimerEvent: {}
+[11.032162] (-) TimerEvent: {}
+[11.125013] (sensor_module) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_node\x1b[0m\n'}
+[11.132251] (-) TimerEvent: {}
+[11.167562] (nlohmann_json) StdoutLine: {'line': b'[ 16%] Built target test-allocator_cpp11\n'}
+[11.232365] (-) TimerEvent: {}
+[11.296824] (nlohmann_json) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-comparison_cpp11.dir/src/unit-comparison.cpp.o\x1b[0m\n'}
+[11.332495] (-) TimerEvent: {}
+[11.432923] (-) TimerEvent: {}
+[11.438939] (nlohmann_json) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX executable test-class_lexer_cpp11\x1b[0m\n'}
+[11.533039] (-) TimerEvent: {}
+[11.633415] (-) TimerEvent: {}
+[11.647467] (nlohmann_json) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX executable test-binary_formats_cpp11\x1b[0m\n'}
+[11.733536] (-) TimerEvent: {}
+[11.740325] (nlohmann_json) StdoutLine: {'line': b'[ 18%] Built target test-class_lexer_cpp11\n'}
+[11.745054] (sensor_module) StdoutLine: {'line': b'[100%] Built target sensor_node\n'}
+[11.788383] (sensor_module) CommandEnded: {'returncode': 0}
+[11.833670] (-) TimerEvent: {}
+[11.868342] (nlohmann_json) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-comparison_cpp20.dir/src/unit-comparison.cpp.o\x1b[0m\n'}
+[11.933795] (-) TimerEvent: {}
+[11.956262] (nlohmann_json) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX executable test-alt-string_cpp11\x1b[0m\n'}
+[11.977669] (nlohmann_json) StdoutLine: {'line': b'[ 19%] Built target test-binary_formats_cpp11\n'}
+[12.033915] (-) TimerEvent: {}
+[12.040035] (nlohmann_json) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-concepts_cpp11.dir/src/unit-concepts.cpp.o\x1b[0m\n'}
+[12.044886] (robot_control_module) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_control_node\x1b[0m\n'}
+[12.114184] (sensor_module) JobProgress: {'identifier': 'sensor_module', 'progress': 'install'}
+[12.134035] (-) TimerEvent: {}
+[12.169870] (sensor_module) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/sensor_module'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.179550] (sensor_module) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.180043] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib/sensor_module/sensor_node\n'}
+[12.181829] (sensor_module) StdoutLine: {'line': b'-- Set runtime path of "/home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/lib/sensor_module/sensor_node" to ""\n'}
+[12.182030] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/ament_index/resource_index/package_run_dependencies/sensor_module\n'}
+[12.182340] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/ament_index/resource_index/parent_prefix_path/sensor_module\n'}
+[12.182612] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/environment/ament_prefix_path.sh\n'}
+[12.182819] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/environment/ament_prefix_path.dsv\n'}
+[12.183030] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/environment/path.sh\n'}
+[12.183245] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/environment/path.dsv\n'}
+[12.183446] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/local_setup.bash\n'}
+[12.183658] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/local_setup.sh\n'}
+[12.183872] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/local_setup.zsh\n'}
+[12.184072] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/local_setup.dsv\n'}
+[12.184286] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.dsv\n'}
+[12.184535] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/ament_index/resource_index/packages/sensor_module\n'}
+[12.184765] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/cmake/sensor_moduleConfig.cmake\n'}
+[12.184913] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/cmake/sensor_moduleConfig-version.cmake\n'}
+[12.185104] (sensor_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/sensor_module/share/sensor_module/package.xml\n'}
+[12.192141] (sensor_module) CommandEnded: {'returncode': 0}
+[12.234156] (-) TimerEvent: {}
+[12.334647] (-) TimerEvent: {}
+[12.369492] (nlohmann_json) StdoutLine: {'line': b'[ 20%] Built target test-alt-string_cpp11\n'}
+[12.418308] (sensor_module) JobEnded: {'identifier': 'sensor_module', 'rc': 0}
+[12.427116] (nlohmann_json) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable test-class_const_iterator_cpp11\x1b[0m\n'}
+[12.434777] (-) TimerEvent: {}
+[12.501074] (nlohmann_json) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-constructor1_cpp11.dir/src/unit-constructor1.cpp.o\x1b[0m\n'}
+[12.533933] (nlohmann_json) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable test-class_iterator_cpp11\x1b[0m\n'}
+[12.534872] (-) TimerEvent: {}
+[12.635198] (-) TimerEvent: {}
+[12.735614] (-) TimerEvent: {}
+[12.836047] (-) TimerEvent: {}
+[12.936536] (-) TimerEvent: {}
+[12.972280] (nlohmann_json) StdoutLine: {'line': b'[ 20%] Built target test-class_const_iterator_cpp11\n'}
+[13.036669] (-) TimerEvent: {}
+[13.083142] (nlohmann_json) StdoutLine: {'line': b'[ 20%] Built target test-class_iterator_cpp11\n'}
+[13.122636] (nlohmann_json) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-constructor2_cpp11.dir/src/unit-constructor2.cpp.o\x1b[0m\n'}
+[13.136810] (-) TimerEvent: {}
+[13.222990] (nlohmann_json) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-convenience_cpp11.dir/src/unit-convenience.cpp.o\x1b[0m\n'}
+[13.236957] (-) TimerEvent: {}
+[13.337411] (-) TimerEvent: {}
+[13.437878] (-) TimerEvent: {}
+[13.538380] (-) TimerEvent: {}
+[13.638894] (-) TimerEvent: {}
+[13.739339] (-) TimerEvent: {}
+[13.839872] (-) TimerEvent: {}
+[13.940410] (-) TimerEvent: {}
+[14.040965] (-) TimerEvent: {}
+[14.141481] (-) TimerEvent: {}
+[14.242007] (-) TimerEvent: {}
+[14.342540] (-) TimerEvent: {}
+[14.443089] (-) TimerEvent: {}
+[14.543627] (-) TimerEvent: {}
+[14.644321] (-) TimerEvent: {}
+[14.744870] (-) TimerEvent: {}
+[14.845363] (-) TimerEvent: {}
+[14.945849] (-) TimerEvent: {}
+[15.046298] (-) TimerEvent: {}
+[15.146770] (-) TimerEvent: {}
+[15.247264] (-) TimerEvent: {}
+[15.347727] (-) TimerEvent: {}
+[15.448230] (-) TimerEvent: {}
+[15.548674] (-) TimerEvent: {}
+[15.649216] (-) TimerEvent: {}
+[15.749676] (-) TimerEvent: {}
+[15.850125] (-) TimerEvent: {}
+[15.859834] (nlohmann_json) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX executable test-bson_cpp11\x1b[0m\n'}
+[15.950255] (-) TimerEvent: {}
+[16.050688] (-) TimerEvent: {}
+[16.151181] (-) TimerEvent: {}
+[16.251653] (-) TimerEvent: {}
+[16.352090] (-) TimerEvent: {}
+[16.363900] (nlohmann_json) StdoutLine: {'line': b'[ 21%] Built target test-bson_cpp11\n'}
+[16.452219] (-) TimerEvent: {}
+[16.479506] (nlohmann_json) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-conversions_cpp11.dir/src/unit-conversions.cpp.o\x1b[0m\n'}
+[16.552367] (-) TimerEvent: {}
+[16.652948] (-) TimerEvent: {}
+[16.753496] (-) TimerEvent: {}
+[16.854067] (-) TimerEvent: {}
+[16.870724] (nlohmann_json) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX executable test-concepts_cpp11\x1b[0m\n'}
+[16.954209] (-) TimerEvent: {}
+[17.054763] (-) TimerEvent: {}
+[17.155280] (-) TimerEvent: {}
+[17.160022] (robot_control_module) StdoutLine: {'line': b'[100%] Built target robot_control_node\n'}
+[17.195286] (nlohmann_json) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX executable test-convenience_cpp11\x1b[0m\n'}
+[17.208005] (robot_control_module) CommandEnded: {'returncode': 0}
+[17.255412] (-) TimerEvent: {}
+[17.338706] (nlohmann_json) StdoutLine: {'line': b'[ 23%] Built target test-concepts_cpp11\n'}
+[17.355550] (-) TimerEvent: {}
+[17.426851] (nlohmann_json) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-conversions_cpp17.dir/src/unit-conversions.cpp.o\x1b[0m\n'}
+[17.455723] (-) TimerEvent: {}
+[17.515239] (robot_control_module) JobProgress: {'identifier': 'robot_control_module', 'progress': 'install'}
+[17.515865] (robot_control_module) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/robot_control_module'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.529267] (nlohmann_json) StdoutLine: {'line': b'[ 24%] Built target test-convenience_cpp11\n'}
+[17.540012] (robot_control_module) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.555870] (-) TimerEvent: {}
+[17.556430] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/robot_control_module/robot_control_node\n'}
+[17.560627] (robot_control_module) StdoutLine: {'line': b'-- Set runtime path of "/home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/lib/robot_control_module/robot_control_node" to ""\n'}
+[17.561017] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/package_run_dependencies/robot_control_module\n'}
+[17.561281] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/parent_prefix_path/robot_control_module\n'}
+[17.561762] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/ament_prefix_path.sh\n'}
+[17.562025] (nlohmann_json) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-custom-base-class_cpp11.dir/src/unit-custom-base-class.cpp.o\x1b[0m\n'}
+[17.562295] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/ament_prefix_path.dsv\n'}
+[17.562510] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/path.sh\n'}
+[17.562693] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/environment/path.dsv\n'}
+[17.562901] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.bash\n'}
+[17.563134] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.sh\n'}
+[17.563368] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.zsh\n'}
+[17.563593] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/local_setup.dsv\n'}
+[17.563825] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.dsv\n'}
+[17.564247] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/ament_index/resource_index/packages/robot_control_module\n'}
+[17.564605] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/cmake/robot_control_moduleConfig.cmake\n'}
+[17.564856] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/cmake/robot_control_moduleConfig-version.cmake\n'}
+[17.565085] (robot_control_module) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/robot_control_module/share/robot_control_module/package.xml\n'}
+[17.577452] (robot_control_module) CommandEnded: {'returncode': 0}
+[17.656064] (-) TimerEvent: {}
+[17.756525] (-) TimerEvent: {}
+[17.856925] (-) TimerEvent: {}
+[17.883117] (robot_control_module) JobEnded: {'identifier': 'robot_control_module', 'rc': 0}
+[17.957087] (-) TimerEvent: {}
+[18.057592] (-) TimerEvent: {}
+[18.158089] (-) TimerEvent: {}
+[18.193887] (nlohmann_json) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable test-constructor2_cpp11\x1b[0m\n'}
+[18.206070] (nlohmann_json) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX executable test-comparison_cpp11\x1b[0m\n'}
+[18.258205] (-) TimerEvent: {}
+[18.358538] (-) TimerEvent: {}
+[18.458875] (-) TimerEvent: {}
+[18.552891] (nlohmann_json) StdoutLine: {'line': b'[ 26%] Built target test-comparison_cpp11\n'}
+[18.559014] (-) TimerEvent: {}
+[18.644669] (nlohmann_json) StdoutLine: {'line': b'[ 26%] Built target test-constructor2_cpp11\n'}
+[18.659156] (-) TimerEvent: {}
+[18.675697] (nlohmann_json) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-deserialization_cpp11.dir/src/unit-deserialization.cpp.o\x1b[0m\n'}
+[18.692820] (nlohmann_json) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-diagnostics_cpp11.dir/src/unit-diagnostics.cpp.o\x1b[0m\n'}
+[18.759302] (-) TimerEvent: {}
+[18.859906] (-) TimerEvent: {}
+[18.960358] (-) TimerEvent: {}
+[19.060819] (-) TimerEvent: {}
+[19.161288] (-) TimerEvent: {}
+[19.261799] (-) TimerEvent: {}
+[19.362259] (-) TimerEvent: {}
+[19.462812] (-) TimerEvent: {}
+[19.563293] (-) TimerEvent: {}
+[19.663812] (-) TimerEvent: {}
+[19.764311] (-) TimerEvent: {}
+[19.864799] (-) TimerEvent: {}
+[19.965282] (-) TimerEvent: {}
+[20.065812] (-) TimerEvent: {}
+[20.166297] (-) TimerEvent: {}
+[20.266749] (-) TimerEvent: {}
+[20.367226] (-) TimerEvent: {}
+[20.467701] (-) TimerEvent: {}
+[20.568185] (-) TimerEvent: {}
+[20.668641] (-) TimerEvent: {}
+[20.769105] (-) TimerEvent: {}
+[20.869567] (-) TimerEvent: {}
+[20.970067] (-) TimerEvent: {}
+[21.070532] (-) TimerEvent: {}
+[21.171063] (-) TimerEvent: {}
+[21.271576] (-) TimerEvent: {}
+[21.372083] (-) TimerEvent: {}
+[21.472560] (-) TimerEvent: {}
+[21.573038] (-) TimerEvent: {}
+[21.673517] (-) TimerEvent: {}
+[21.774001] (-) TimerEvent: {}
+[21.874518] (-) TimerEvent: {}
+[21.975007] (-) TimerEvent: {}
+[22.075476] (-) TimerEvent: {}
+[22.175950] (-) TimerEvent: {}
+[22.276440] (-) TimerEvent: {}
+[22.376909] (-) TimerEvent: {}
+[22.477381] (-) TimerEvent: {}
+[22.577850] (-) TimerEvent: {}
+[22.578386] (nlohmann_json) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX executable test-comparison_cpp20\x1b[0m\n'}
+[22.677990] (-) TimerEvent: {}
+[22.778501] (-) TimerEvent: {}
+[22.878964] (-) TimerEvent: {}
+[22.915303] (nlohmann_json) StdoutLine: {'line': b'[ 28%] Built target test-comparison_cpp20\n'}
+[22.979088] (-) TimerEvent: {}
+[22.999596] (nlohmann_json) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-disabled_exceptions_cpp11.dir/src/unit-disabled_exceptions.cpp.o\x1b[0m\n'}
+[23.079218] (-) TimerEvent: {}
+[23.179601] (-) TimerEvent: {}
+[23.280073] (-) TimerEvent: {}
+[23.380580] (-) TimerEvent: {}
+[23.481048] (-) TimerEvent: {}
+[23.581553] (-) TimerEvent: {}
+[23.682022] (-) TimerEvent: {}
+[23.782526] (-) TimerEvent: {}
+[23.882918] (-) TimerEvent: {}
+[23.983377] (-) TimerEvent: {}
+[24.083842] (-) TimerEvent: {}
+[24.184354] (-) TimerEvent: {}
+[24.284823] (-) TimerEvent: {}
+[24.348161] (nlohmann_json) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX executable test-cbor_cpp11\x1b[0m\n'}
+[24.384961] (-) TimerEvent: {}
+[24.485438] (-) TimerEvent: {}
+[24.585912] (-) TimerEvent: {}
+[24.686409] (-) TimerEvent: {}
+[24.778300] (nlohmann_json) StdoutLine: {'line': b'[ 30%] Built target test-cbor_cpp11\n'}
+[24.786546] (-) TimerEvent: {}
+[24.887020] (-) TimerEvent: {}
+[24.907242] (nlohmann_json) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-element_access1_cpp11.dir/src/unit-element_access1.cpp.o\x1b[0m\n'}
+[24.987152] (-) TimerEvent: {}
+[25.087628] (-) TimerEvent: {}
+[25.188132] (-) TimerEvent: {}
+[25.288631] (-) TimerEvent: {}
+[25.389113] (-) TimerEvent: {}
+[25.403472] (nlohmann_json) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX executable test-diagnostics_cpp11\x1b[0m\n'}
+[25.489254] (-) TimerEvent: {}
+[25.551340] (nlohmann_json) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX executable test-class_parser_cpp11\x1b[0m\n'}
+[25.589385] (-) TimerEvent: {}
+[25.689859] (-) TimerEvent: {}
+[25.790341] (-) TimerEvent: {}
+[25.890836] (-) TimerEvent: {}
+[25.900787] (nlohmann_json) StdoutLine: {'line': b'[ 32%] Built target test-diagnostics_cpp11\n'}
+[25.990980] (-) TimerEvent: {}
+[26.015738] (nlohmann_json) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp11.dir/src/unit-element_access2.cpp.o\x1b[0m\n'}
+[26.085113] (nlohmann_json) StdoutLine: {'line': b'[ 33%] Built target test-class_parser_cpp11\n'}
+[26.091121] (-) TimerEvent: {}
+[26.162145] (nlohmann_json) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable test-constructor1_cpp11\x1b[0m\n'}
+[26.191297] (-) TimerEvent: {}
+[26.191688] (nlohmann_json) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp14.dir/src/unit-element_access2.cpp.o\x1b[0m\n'}
+[26.291633] (-) TimerEvent: {}
+[26.339794] (nlohmann_json) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable test-custom-base-class_cpp11\x1b[0m\n'}
+[26.391782] (-) TimerEvent: {}
+[26.492330] (-) TimerEvent: {}
+[26.592847] (-) TimerEvent: {}
+[26.693271] (-) TimerEvent: {}
+[26.745213] (nlohmann_json) StdoutLine: {'line': b'[ 35%] Built target test-constructor1_cpp11\n'}
+[26.793398] (-) TimerEvent: {}
+[26.875336] (nlohmann_json) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp17.dir/src/unit-element_access2.cpp.o\x1b[0m\n'}
+[26.893542] (-) TimerEvent: {}
+[26.993969] (-) TimerEvent: {}
+[27.094374] (nlohmann_json) StdoutLine: {'line': b'[ 35%] Built target test-custom-base-class_cpp11\n'}
+[27.094654] (-) TimerEvent: {}
+[27.195079] (-) TimerEvent: {}
+[27.218926] (nlohmann_json) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-hash_cpp11.dir/src/unit-hash.cpp.o\x1b[0m\n'}
+[27.295230] (-) TimerEvent: {}
+[27.305826] (nlohmann_json) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX executable test-bjdata_cpp11\x1b[0m\n'}
+[27.395380] (-) TimerEvent: {}
+[27.495915] (-) TimerEvent: {}
+[27.596436] (-) TimerEvent: {}
+[27.697003] (-) TimerEvent: {}
+[27.797440] (-) TimerEvent: {}
+[27.816886] (nlohmann_json) StdoutLine: {'line': b'[ 36%] Built target test-bjdata_cpp11\n'}
+[27.897582] (-) TimerEvent: {}
+[27.943721] (nlohmann_json) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-inspection_cpp11.dir/src/unit-inspection.cpp.o\x1b[0m\n'}
+[27.997725] (-) TimerEvent: {}
+[28.013677] (nlohmann_json) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable test-disabled_exceptions_cpp11\x1b[0m\n'}
+[28.097873] (-) TimerEvent: {}
+[28.198381] (-) TimerEvent: {}
+[28.298881] (-) TimerEvent: {}
+[28.399404] (-) TimerEvent: {}
+[28.499885] (-) TimerEvent: {}
+[28.600413] (-) TimerEvent: {}
+[28.669742] (nlohmann_json) StdoutLine: {'line': b'[ 37%] Built target test-disabled_exceptions_cpp11\n'}
+[28.700549] (-) TimerEvent: {}
+[28.787589] (nlohmann_json) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-items_cpp11.dir/src/unit-items.cpp.o\x1b[0m\n'}
+[28.800686] (-) TimerEvent: {}
+[28.901099] (-) TimerEvent: {}
+[29.001604] (-) TimerEvent: {}
+[29.102083] (-) TimerEvent: {}
+[29.202506] (-) TimerEvent: {}
+[29.302919] (-) TimerEvent: {}
+[29.403394] (-) TimerEvent: {}
+[29.503891] (-) TimerEvent: {}
+[29.604427] (-) TimerEvent: {}
+[29.704990] (-) TimerEvent: {}
+[29.805496] (-) TimerEvent: {}
+[29.905893] (-) TimerEvent: {}
+[30.006315] (-) TimerEvent: {}
+[30.106753] (-) TimerEvent: {}
+[30.207215] (-) TimerEvent: {}
+[30.307653] (-) TimerEvent: {}
+[30.408063] (-) TimerEvent: {}
+[30.508482] (-) TimerEvent: {}
+[30.608909] (-) TimerEvent: {}
+[30.709348] (-) TimerEvent: {}
+[30.809823] (-) TimerEvent: {}
+[30.910261] (-) TimerEvent: {}
+[31.010708] (-) TimerEvent: {}
+[31.111141] (-) TimerEvent: {}
+[31.211602] (-) TimerEvent: {}
+[31.312046] (-) TimerEvent: {}
+[31.412463] (-) TimerEvent: {}
+[31.512889] (-) TimerEvent: {}
+[31.613345] (-) TimerEvent: {}
+[31.713796] (-) TimerEvent: {}
+[31.814195] (-) TimerEvent: {}
+[31.914593] (-) TimerEvent: {}
+[32.015079] (-) TimerEvent: {}
+[32.115572] (-) TimerEvent: {}
+[32.216093] (-) TimerEvent: {}
+[32.316628] (-) TimerEvent: {}
+[32.417114] (-) TimerEvent: {}
+[32.517584] (-) TimerEvent: {}
+[32.618076] (-) TimerEvent: {}
+[32.718547] (-) TimerEvent: {}
+[32.818934] (-) TimerEvent: {}
+[32.919389] (-) TimerEvent: {}
+[33.019854] (-) TimerEvent: {}
+[33.120393] (-) TimerEvent: {}
+[33.204701] (nlohmann_json) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable test-element_access1_cpp11\x1b[0m\n'}
+[33.220788] (-) TimerEvent: {}
+[33.321261] (-) TimerEvent: {}
+[33.421784] (-) TimerEvent: {}
+[33.522282] (-) TimerEvent: {}
+[33.622768] (-) TimerEvent: {}
+[33.723258] (-) TimerEvent: {}
+[33.823764] (-) TimerEvent: {}
+[33.849785] (nlohmann_json) StdoutLine: {'line': b'[ 38%] Built target test-element_access1_cpp11\n'}
+[33.888314] (nlohmann_json) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-items_cpp17.dir/src/unit-items.cpp.o\x1b[0m\n'}
+[33.923898] (-) TimerEvent: {}
+[34.024344] (-) TimerEvent: {}
+[34.124730] (-) TimerEvent: {}
+[34.225154] (-) TimerEvent: {}
+[34.325573] (-) TimerEvent: {}
+[34.362160] (nlohmann_json) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable test-hash_cpp11\x1b[0m\n'}
+[34.425707] (-) TimerEvent: {}
+[34.526122] (-) TimerEvent: {}
+[34.626544] (-) TimerEvent: {}
+[34.726924] (-) TimerEvent: {}
+[34.773047] (nlohmann_json) StdoutLine: {'line': b'[ 38%] Built target test-hash_cpp11\n'}
+[34.827064] (-) TimerEvent: {}
+[34.899609] (nlohmann_json) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-iterators1_cpp11.dir/src/unit-iterators1.cpp.o\x1b[0m\n'}
+[34.927201] (-) TimerEvent: {}
+[35.027675] (-) TimerEvent: {}
+[35.128164] (-) TimerEvent: {}
+[35.228665] (-) TimerEvent: {}
+[35.329150] (-) TimerEvent: {}
+[35.429619] (-) TimerEvent: {}
+[35.493870] (nlohmann_json) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX executable test-items_cpp11\x1b[0m\n'}
+[35.529769] (-) TimerEvent: {}
+[35.558915] (nlohmann_json) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX executable test-inspection_cpp11\x1b[0m\n'}
+[35.629910] (-) TimerEvent: {}
+[35.730466] (-) TimerEvent: {}
+[35.830979] (-) TimerEvent: {}
+[35.931515] (-) TimerEvent: {}
+[36.011507] (nlohmann_json) StdoutLine: {'line': b'[ 39%] Built target test-items_cpp11\n'}
+[36.031657] (-) TimerEvent: {}
+[36.132082] (-) TimerEvent: {}
+[36.139181] (nlohmann_json) StdoutLine: {'line': b'[ 39%] Built target test-inspection_cpp11\n'}
+[36.151135] (nlohmann_json) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-iterators2_cpp11.dir/src/unit-iterators2.cpp.o\x1b[0m\n'}
+[36.226787] (nlohmann_json) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-iterators2_cpp20.dir/src/unit-iterators2.cpp.o\x1b[0m\n'}
+[36.232214] (-) TimerEvent: {}
+[36.332709] (-) TimerEvent: {}
+[36.433210] (-) TimerEvent: {}
+[36.533679] (-) TimerEvent: {}
+[36.634161] (-) TimerEvent: {}
+[36.734625] (-) TimerEvent: {}
+[36.835059] (-) TimerEvent: {}
+[36.935455] (-) TimerEvent: {}
+[37.035854] (-) TimerEvent: {}
+[37.136245] (-) TimerEvent: {}
+[37.236659] (-) TimerEvent: {}
+[37.337061] (-) TimerEvent: {}
+[37.437489] (-) TimerEvent: {}
+[37.537883] (-) TimerEvent: {}
+[37.638297] (-) TimerEvent: {}
+[37.720333] (nlohmann_json) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable test-conversions_cpp11\x1b[0m\n'}
+[37.738425] (-) TimerEvent: {}
+[37.838869] (-) TimerEvent: {}
+[37.939371] (-) TimerEvent: {}
+[38.039817] (-) TimerEvent: {}
+[38.140360] (-) TimerEvent: {}
+[38.240929] (-) TimerEvent: {}
+[38.341509] (-) TimerEvent: {}
+[38.442030] (-) TimerEvent: {}
+[38.542547] (-) TimerEvent: {}
+[38.643066] (-) TimerEvent: {}
+[38.743620] (-) TimerEvent: {}
+[38.844098] (-) TimerEvent: {}
+[38.915783] (nlohmann_json) StdoutLine: {'line': b'[ 41%] Built target test-conversions_cpp11\n'}
+[38.944234] (-) TimerEvent: {}
+[39.044737] (-) TimerEvent: {}
+[39.048190] (nlohmann_json) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-json_patch_cpp11.dir/src/unit-json_patch.cpp.o\x1b[0m\n'}
+[39.144879] (-) TimerEvent: {}
+[39.245423] (-) TimerEvent: {}
+[39.345917] (-) TimerEvent: {}
+[39.446689] (-) TimerEvent: {}
+[39.547417] (-) TimerEvent: {}
+[39.647915] (-) TimerEvent: {}
+[39.748628] (-) TimerEvent: {}
+[39.849377] (-) TimerEvent: {}
+[39.949880] (-) TimerEvent: {}
+[40.050670] (-) TimerEvent: {}
+[40.116769] (nlohmann_json) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX executable test-element_access2_cpp11\x1b[0m\n'}
+[40.150802] (-) TimerEvent: {}
+[40.251256] (-) TimerEvent: {}
+[40.351652] (-) TimerEvent: {}
+[40.452060] (-) TimerEvent: {}
+[40.552469] (-) TimerEvent: {}
+[40.652896] (-) TimerEvent: {}
+[40.753340] (-) TimerEvent: {}
+[40.801332] (nlohmann_json) StdoutLine: {'line': b'[ 43%] Built target test-element_access2_cpp11\n'}
+[40.853481] (-) TimerEvent: {}
+[40.927714] (nlohmann_json) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-json_pointer_cpp11.dir/src/unit-json_pointer.cpp.o\x1b[0m\n'}
+[40.953615] (-) TimerEvent: {}
+[41.054093] (-) TimerEvent: {}
+[41.154561] (-) TimerEvent: {}
+[41.234320] (nlohmann_json) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable test-items_cpp17\x1b[0m\n'}
+[41.254675] (-) TimerEvent: {}
+[41.355010] (-) TimerEvent: {}
+[41.455317] (-) TimerEvent: {}
+[41.555626] (-) TimerEvent: {}
+[41.583652] (nlohmann_json) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable test-conversions_cpp17\x1b[0m\n'}
+[41.655765] (-) TimerEvent: {}
+[41.702703] (nlohmann_json) StdoutLine: {'line': b'[ 46%] Built target test-items_cpp17\n'}
+[41.755906] (-) TimerEvent: {}
+[41.827647] (nlohmann_json) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-json_pointer_cpp20.dir/src/unit-json_pointer.cpp.o\x1b[0m\n'}
+[41.856061] (-) TimerEvent: {}
+[41.956476] (-) TimerEvent: {}
+[42.056951] (-) TimerEvent: {}
+[42.086298] (nlohmann_json) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX executable test-iterators1_cpp11\x1b[0m\n'}
+[42.157082] (-) TimerEvent: {}
+[42.257589] (-) TimerEvent: {}
+[42.358117] (-) TimerEvent: {}
+[42.458538] (-) TimerEvent: {}
+[42.489629] (nlohmann_json) StdoutLine: {'line': b'[ 47%] Built target test-conversions_cpp17\n'}
+[42.522716] (nlohmann_json) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-large_json_cpp11.dir/src/unit-large_json.cpp.o\x1b[0m\n'}
+[42.558687] (-) TimerEvent: {}
+[42.645426] (nlohmann_json) StdoutLine: {'line': b'[ 47%] Built target test-iterators1_cpp11\n'}
+[42.658820] (-) TimerEvent: {}
+[42.759238] (-) TimerEvent: {}
+[42.759667] (nlohmann_json) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-merge_patch_cpp11.dir/src/unit-merge_patch.cpp.o\x1b[0m\n'}
+[42.838112] (nlohmann_json) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX executable test-iterators2_cpp11\x1b[0m\n'}
+[42.859372] (-) TimerEvent: {}
+[42.959856] (-) TimerEvent: {}
+[43.060339] (-) TimerEvent: {}
+[43.160804] (-) TimerEvent: {}
+[43.261254] (-) TimerEvent: {}
+[43.361737] (-) TimerEvent: {}
+[43.462229] (-) TimerEvent: {}
+[43.468775] (nlohmann_json) StdoutLine: {'line': b'[ 48%] Built target test-iterators2_cpp11\n'}
+[43.562370] (-) TimerEvent: {}
+[43.564449] (nlohmann_json) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX executable test-element_access2_cpp14\x1b[0m\n'}
+[43.616445] (nlohmann_json) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-meta_cpp11.dir/src/unit-meta.cpp.o\x1b[0m\n'}
+[43.662514] (-) TimerEvent: {}
+[43.762998] (-) TimerEvent: {}
+[43.863479] (-) TimerEvent: {}
+[43.964008] (-) TimerEvent: {}
+[44.064437] (-) TimerEvent: {}
+[44.164921] (-) TimerEvent: {}
+[44.246973] (nlohmann_json) StdoutLine: {'line': b'[ 50%] Built target test-element_access2_cpp14\n'}
+[44.265053] (-) TimerEvent: {}
+[44.346731] (nlohmann_json) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-modifiers_cpp11.dir/src/unit-modifiers.cpp.o\x1b[0m\n'}
+[44.365189] (-) TimerEvent: {}
+[44.465589] (-) TimerEvent: {}
+[44.566042] (-) TimerEvent: {}
+[44.666452] (-) TimerEvent: {}
+[44.766883] (-) TimerEvent: {}
+[44.867362] (-) TimerEvent: {}
+[44.967880] (-) TimerEvent: {}
+[45.068382] (-) TimerEvent: {}
+[45.168852] (-) TimerEvent: {}
+[45.269352] (-) TimerEvent: {}
+[45.369851] (-) TimerEvent: {}
+[45.470318] (-) TimerEvent: {}
+[45.570801] (-) TimerEvent: {}
+[45.671305] (-) TimerEvent: {}
+[45.771873] (-) TimerEvent: {}
+[45.837359] (nlohmann_json) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX executable test-element_access2_cpp17\x1b[0m\n'}
+[45.872277] (-) TimerEvent: {}
+[45.972728] (-) TimerEvent: {}
+[46.073170] (-) TimerEvent: {}
+[46.173601] (-) TimerEvent: {}
+[46.274010] (-) TimerEvent: {}
+[46.374444] (-) TimerEvent: {}
+[46.471446] (nlohmann_json) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX executable test-iterators2_cpp20\x1b[0m\n'}
+[46.474585] (-) TimerEvent: {}
+[46.504292] (nlohmann_json) StdoutLine: {'line': b'[ 52%] Built target test-element_access2_cpp17\n'}
+[46.549320] (nlohmann_json) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-msgpack_cpp11.dir/src/unit-msgpack.cpp.o\x1b[0m\n'}
+[46.570182] (nlohmann_json) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable test-large_json_cpp11\x1b[0m\n'}
+[46.574729] (-) TimerEvent: {}
+[46.675393] (-) TimerEvent: {}
+[46.775897] (-) TimerEvent: {}
+[46.876525] (-) TimerEvent: {}
+[46.977052] (-) TimerEvent: {}
+[47.000752] (nlohmann_json) StdoutLine: {'line': b'[ 53%] Built target test-iterators2_cpp20\n'}
+[47.041047] (nlohmann_json) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-no-mem-leak-on-adl-serialize_cpp11.dir/src/unit-no-mem-leak-on-adl-serialize.cpp.o\x1b[0m\n'}
+[47.077185] (-) TimerEvent: {}
+[47.127660] (nlohmann_json) StdoutLine: {'line': b'[ 53%] Built target test-large_json_cpp11\n'}
+[47.177322] (-) TimerEvent: {}
+[47.186771] (nlohmann_json) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-noexcept_cpp11.dir/src/unit-noexcept.cpp.o\x1b[0m\n'}
+[47.212112] (nlohmann_json) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable test-deserialization_cpp11\x1b[0m\n'}
+[47.277455] (-) TimerEvent: {}
+[47.379284] (-) TimerEvent: {}
+[47.479768] (-) TimerEvent: {}
+[47.580272] (-) TimerEvent: {}
+[47.680794] (-) TimerEvent: {}
+[47.781277] (-) TimerEvent: {}
+[47.881755] (-) TimerEvent: {}
+[47.982227] (-) TimerEvent: {}
+[48.067726] (nlohmann_json) StdoutLine: {'line': b'[ 55%] Built target test-deserialization_cpp11\n'}
+[48.082362] (-) TimerEvent: {}
+[48.182855] (-) TimerEvent: {}
+[48.203180] (nlohmann_json) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-ordered_json_cpp11.dir/src/unit-ordered_json.cpp.o\x1b[0m\n'}
+[48.283000] (-) TimerEvent: {}
+[48.383495] (-) TimerEvent: {}
+[48.483984] (-) TimerEvent: {}
+[48.584488] (-) TimerEvent: {}
+[48.684975] (-) TimerEvent: {}
+[48.785434] (-) TimerEvent: {}
+[48.885907] (-) TimerEvent: {}
+[48.986397] (-) TimerEvent: {}
+[49.086903] (-) TimerEvent: {}
+[49.158447] (nlohmann_json) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable test-json_patch_cpp11\x1b[0m\n'}
+[49.187037] (-) TimerEvent: {}
+[49.194379] (nlohmann_json) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable test-merge_patch_cpp11\x1b[0m\n'}
+[49.287170] (-) TimerEvent: {}
+[49.387654] (-) TimerEvent: {}
+[49.487626] (nlohmann_json) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable test-meta_cpp11\x1b[0m\n'}
+[49.487919] (-) TimerEvent: {}
+[49.588370] (-) TimerEvent: {}
+[49.629672] (nlohmann_json) StdoutLine: {'line': b'[ 56%] Built target test-merge_patch_cpp11\n'}
+[49.688499] (-) TimerEvent: {}
+[49.743489] (nlohmann_json) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable test-noexcept_cpp11\x1b[0m\n'}
+[49.743769] (nlohmann_json) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-ordered_map_cpp11.dir/src/unit-ordered_map.cpp.o\x1b[0m\n'}
+[49.788621] (-) TimerEvent: {}
+[49.839868] (nlohmann_json) StdoutLine: {'line': b'[ 57%] Built target test-json_patch_cpp11\n'}
+[49.888755] (-) TimerEvent: {}
+[49.965865] (nlohmann_json) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-pointer_access_cpp11.dir/src/unit-pointer_access.cpp.o\x1b[0m\n'}
+[49.988896] (-) TimerEvent: {}
+[50.039213] (nlohmann_json) StdoutLine: {'line': b'[ 57%] Built target test-meta_cpp11\n'}
+[50.089026] (-) TimerEvent: {}
+[50.163070] (nlohmann_json) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-readme_cpp11.dir/src/unit-readme.cpp.o\x1b[0m\n'}
+[50.189151] (-) TimerEvent: {}
+[50.215651] (nlohmann_json) StdoutLine: {'line': b'[ 57%] Built target test-noexcept_cpp11\n'}
+[50.289271] (-) TimerEvent: {}
+[50.319516] (nlohmann_json) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-reference_access_cpp11.dir/src/unit-reference_access.cpp.o\x1b[0m\n'}
+[50.389424] (-) TimerEvent: {}
+[50.489883] (-) TimerEvent: {}
+[50.590373] (-) TimerEvent: {}
+[50.644349] (nlohmann_json) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable test-no-mem-leak-on-adl-serialize_cpp11\x1b[0m\n'}
+[50.690515] (-) TimerEvent: {}
+[50.791035] (-) TimerEvent: {}
+[50.891510] (-) TimerEvent: {}
+[50.992009] (-) TimerEvent: {}
+[51.071094] (nlohmann_json) StdoutLine: {'line': b'[ 58%] Built target test-no-mem-leak-on-adl-serialize_cpp11\n'}
+[51.092133] (-) TimerEvent: {}
+[51.192592] (-) TimerEvent: {}
+[51.216160] (nlohmann_json) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-regression1_cpp11.dir/src/unit-regression1.cpp.o\x1b[0m\n'}
+[51.279158] (nlohmann_json) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable test-json_pointer_cpp11\x1b[0m\n'}
+[51.292708] (-) TimerEvent: {}
+[51.393152] (-) TimerEvent: {}
+[51.493564] (-) TimerEvent: {}
+[51.594002] (-) TimerEvent: {}
+[51.694442] (-) TimerEvent: {}
+[51.794891] (-) TimerEvent: {}
+[51.895393] (-) TimerEvent: {}
+[51.995917] (-) TimerEvent: {}
+[52.064543] (nlohmann_json) StdoutLine: {'line': b'[ 60%] Built target test-json_pointer_cpp11\n'}
+[52.096054] (-) TimerEvent: {}
+[52.171843] (nlohmann_json) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-regression1_cpp17.dir/src/unit-regression1.cpp.o\x1b[0m\n'}
+[52.196183] (-) TimerEvent: {}
+[52.296663] (-) TimerEvent: {}
+[52.397162] (-) TimerEvent: {}
+[52.497626] (-) TimerEvent: {}
+[52.598074] (-) TimerEvent: {}
+[52.698544] (-) TimerEvent: {}
+[52.799010] (-) TimerEvent: {}
+[52.899501] (-) TimerEvent: {}
+[52.999896] (-) TimerEvent: {}
+[53.100328] (-) TimerEvent: {}
+[53.200737] (-) TimerEvent: {}
+[53.301138] (-) TimerEvent: {}
+[53.401587] (-) TimerEvent: {}
+[53.502024] (-) TimerEvent: {}
+[53.560752] (nlohmann_json) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable test-ordered_map_cpp11\x1b[0m\n'}
+[53.596590] (nlohmann_json) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable test-modifiers_cpp11\x1b[0m\n'}
+[53.602156] (-) TimerEvent: {}
+[53.702610] (-) TimerEvent: {}
+[53.803041] (-) TimerEvent: {}
+[53.903548] (-) TimerEvent: {}
+[53.921107] (nlohmann_json) StdoutLine: {'line': b'[ 63%] Built target test-modifiers_cpp11\n'}
+[53.955089] (nlohmann_json) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp11.dir/src/unit-regression2.cpp.o\x1b[0m\n'}
+[53.997374] (nlohmann_json) StdoutLine: {'line': b'[ 64%] Built target test-ordered_map_cpp11\n'}
+[54.003682] (-) TimerEvent: {}
+[54.028172] (nlohmann_json) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp17.dir/src/unit-regression2.cpp.o\x1b[0m\n'}
+[54.103816] (-) TimerEvent: {}
+[54.204233] (-) TimerEvent: {}
+[54.304630] (-) TimerEvent: {}
+[54.405055] (-) TimerEvent: {}
+[54.505467] (-) TimerEvent: {}
+[54.605919] (-) TimerEvent: {}
+[54.706356] (-) TimerEvent: {}
+[54.806795] (-) TimerEvent: {}
+[54.907229] (-) TimerEvent: {}
+[55.007703] (-) TimerEvent: {}
+[55.108189] (-) TimerEvent: {}
+[55.208628] (-) TimerEvent: {}
+[55.309078] (-) TimerEvent: {}
+[55.409521] (-) TimerEvent: {}
+[55.509977] (-) TimerEvent: {}
+[55.551110] (nlohmann_json) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable test-ordered_json_cpp11\x1b[0m\n'}
+[55.610111] (-) TimerEvent: {}
+[55.710583] (-) TimerEvent: {}
+[55.754399] (nlohmann_json) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable test-json_pointer_cpp20\x1b[0m\n'}
+[55.810701] (-) TimerEvent: {}
+[55.911121] (-) TimerEvent: {}
+[56.011558] (-) TimerEvent: {}
+[56.095106] (nlohmann_json) StdoutLine: {'line': b'[ 65%] Built target test-ordered_json_cpp11\n'}
+[56.111682] (-) TimerEvent: {}
+[56.127077] (nlohmann_json) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp20.dir/src/unit-regression2.cpp.o\x1b[0m\n'}
+[56.136828] (nlohmann_json) StdoutLine: {'line': b'[ 65%] Built target test-json_pointer_cpp20\n'}
+[56.170857] (nlohmann_json) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-serialization_cpp11.dir/src/unit-serialization.cpp.o\x1b[0m\n'}
+[56.211837] (-) TimerEvent: {}
+[56.312332] (-) TimerEvent: {}
+[56.412801] (-) TimerEvent: {}
+[56.513356] (-) TimerEvent: {}
+[56.613845] (-) TimerEvent: {}
+[56.714364] (-) TimerEvent: {}
+[56.814818] (-) TimerEvent: {}
+[56.899179] (nlohmann_json) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable test-pointer_access_cpp11\x1b[0m\n'}
+[56.914962] (-) TimerEvent: {}
+[56.961169] (nlohmann_json) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable test-reference_access_cpp11\x1b[0m\n'}
+[57.015096] (-) TimerEvent: {}
+[57.115612] (-) TimerEvent: {}
+[57.216349] (-) TimerEvent: {}
+[57.316845] (-) TimerEvent: {}
+[57.335462] (nlohmann_json) StdoutLine: {'line': b'[ 68%] Built target test-pointer_access_cpp11\n'}
+[57.417019] (-) TimerEvent: {}
+[57.471711] (nlohmann_json) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-testsuites_cpp11.dir/src/unit-testsuites.cpp.o\x1b[0m\n'}
+[57.517161] (-) TimerEvent: {}
+[57.579341] (nlohmann_json) StdoutLine: {'line': b'[ 69%] Built target test-reference_access_cpp11\n'}
+[57.617301] (-) TimerEvent: {}
+[57.717773] (-) TimerEvent: {}
+[57.727201] (nlohmann_json) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-to_chars_cpp11.dir/src/unit-to_chars.cpp.o\x1b[0m\n'}
+[57.817941] (-) TimerEvent: {}
+[57.918405] (-) TimerEvent: {}
+[58.018876] (-) TimerEvent: {}
+[58.119298] (-) TimerEvent: {}
+[58.219726] (-) TimerEvent: {}
+[58.320239] (-) TimerEvent: {}
+[58.420714] (-) TimerEvent: {}
+[58.521187] (-) TimerEvent: {}
+[58.621651] (-) TimerEvent: {}
+[58.722153] (-) TimerEvent: {}
+[58.822615] (-) TimerEvent: {}
+[58.923095] (-) TimerEvent: {}
+[59.023570] (-) TimerEvent: {}
+[59.124056] (-) TimerEvent: {}
+[59.224534] (-) TimerEvent: {}
+[59.325016] (-) TimerEvent: {}
+[59.425508] (-) TimerEvent: {}
+[59.525976] (-) TimerEvent: {}
+[59.626469] (-) TimerEvent: {}
+[59.726929] (-) TimerEvent: {}
+[59.827386] (-) TimerEvent: {}
+[59.927847] (-) TimerEvent: {}
+[60.028342] (-) TimerEvent: {}
+[60.128842] (-) TimerEvent: {}
+[60.229285] (-) TimerEvent: {}
+[60.329734] (-) TimerEvent: {}
+[60.430214] (-) TimerEvent: {}
+[60.530732] (-) TimerEvent: {}
+[60.631220] (-) TimerEvent: {}
+[60.643900] (nlohmann_json) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable test-msgpack_cpp11\x1b[0m\n'}
+[60.707701] (nlohmann_json) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable test-readme_cpp11\x1b[0m\n'}
+[60.731360] (-) TimerEvent: {}
+[60.831857] (-) TimerEvent: {}
+[60.932417] (-) TimerEvent: {}
+[61.015471] (nlohmann_json) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable test-serialization_cpp11\x1b[0m\n'}
+[61.032591] (-) TimerEvent: {}
+[61.133087] (-) TimerEvent: {}
+[61.137475] (nlohmann_json) StdoutLine: {'line': b'[ 72%] Built target test-readme_cpp11\n'}
+[61.172842] (nlohmann_json) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-type_traits_cpp11.dir/src/unit-type_traits.cpp.o\x1b[0m\n'}
+[61.233234] (-) TimerEvent: {}
+[61.333779] (-) TimerEvent: {}
+[61.434359] (-) TimerEvent: {}
+[61.500701] (nlohmann_json) StdoutLine: {'line': b'[ 72%] Built target test-msgpack_cpp11\n'}
+[61.534499] (-) TimerEvent: {}
+[61.576620] (nlohmann_json) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-ubjson_cpp11.dir/src/unit-ubjson.cpp.o\x1b[0m\n'}
+[61.607727] (nlohmann_json) StdoutLine: {'line': b'[ 72%] Built target test-serialization_cpp11\n'}
+[61.634651] (-) TimerEvent: {}
+[61.711552] (nlohmann_json) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-udl_cpp11.dir/src/unit-udl.cpp.o\x1b[0m\n'}
+[61.734790] (-) TimerEvent: {}
+[61.835262] (-) TimerEvent: {}
+[61.866824] (nlohmann_json) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX executable test-to_chars_cpp11\x1b[0m\n'}
+[61.919115] (nlohmann_json) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable test-type_traits_cpp11\x1b[0m\n'}
+[61.935401] (-) TimerEvent: {}
+[62.035800] (-) TimerEvent: {}
+[62.136266] (-) TimerEvent: {}
+[62.236694] (-) TimerEvent: {}
+[62.337113] (-) TimerEvent: {}
+[62.392071] (nlohmann_json) StdoutLine: {'line': b'[ 74%] Built target test-to_chars_cpp11\n'}
+[62.399701] (nlohmann_json) StdoutLine: {'line': b'[ 74%] Built target test-type_traits_cpp11\n'}
+[62.437261] (-) TimerEvent: {}
+[62.537536] (nlohmann_json) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-udt_cpp11.dir/src/unit-udt.cpp.o\x1b[0m\n'}
+[62.537832] (-) TimerEvent: {}
+[62.561961] (nlohmann_json) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-udt_macro_cpp11.dir/src/unit-udt_macro.cpp.o\x1b[0m\n'}
+[62.637988] (-) TimerEvent: {}
+[62.738483] (-) TimerEvent: {}
+[62.838954] (-) TimerEvent: {}
+[62.939362] (-) TimerEvent: {}
+[63.039850] (-) TimerEvent: {}
+[63.140346] (-) TimerEvent: {}
+[63.240771] (-) TimerEvent: {}
+[63.341231] (-) TimerEvent: {}
+[63.441686] (-) TimerEvent: {}
+[63.542122] (-) TimerEvent: {}
+[63.642544] (-) TimerEvent: {}
+[63.742980] (-) TimerEvent: {}
+[63.843490] (-) TimerEvent: {}
+[63.944030] (-) TimerEvent: {}
+[64.044538] (-) TimerEvent: {}
+[64.145034] (-) TimerEvent: {}
+[64.245541] (-) TimerEvent: {}
+[64.346018] (-) TimerEvent: {}
+[64.446496] (-) TimerEvent: {}
+[64.546972] (-) TimerEvent: {}
+[64.647463] (-) TimerEvent: {}
+[64.747932] (-) TimerEvent: {}
+[64.848401] (-) TimerEvent: {}
+[64.948858] (-) TimerEvent: {}
+[65.049329] (-) TimerEvent: {}
+[65.149798] (-) TimerEvent: {}
+[65.250273] (-) TimerEvent: {}
+[65.350736] (-) TimerEvent: {}
+[65.451198] (-) TimerEvent: {}
+[65.551683] (-) TimerEvent: {}
+[65.652146] (-) TimerEvent: {}
+[65.752620] (-) TimerEvent: {}
+[65.853084] (-) TimerEvent: {}
+[65.953565] (-) TimerEvent: {}
+[66.054010] (-) TimerEvent: {}
+[66.154448] (-) TimerEvent: {}
+[66.195076] (nlohmann_json) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable test-testsuites_cpp11\x1b[0m\n'}
+[66.254571] (-) TimerEvent: {}
+[66.354999] (-) TimerEvent: {}
+[66.455513] (-) TimerEvent: {}
+[66.556002] (-) TimerEvent: {}
+[66.656467] (-) TimerEvent: {}
+[66.756923] (-) TimerEvent: {}
+[66.825284] (nlohmann_json) StdoutLine: {'line': b'[ 76%] Built target test-testsuites_cpp11\n'}
+[66.857048] (-) TimerEvent: {}
+[66.938871] (nlohmann_json) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-unicode1_cpp11.dir/src/unit-unicode1.cpp.o\x1b[0m\n'}
+[66.957168] (-) TimerEvent: {}
+[67.057586] (-) TimerEvent: {}
+[67.158023] (-) TimerEvent: {}
+[67.258445] (-) TimerEvent: {}
+[67.358864] (-) TimerEvent: {}
+[67.359165] (nlohmann_json) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test-udl_cpp11\x1b[0m\n'}
+[67.458991] (-) TimerEvent: {}
+[67.559411] (-) TimerEvent: {}
+[67.659848] (-) TimerEvent: {}
+[67.713274] (nlohmann_json) StdoutLine: {'line': b'[ 78%] Built target test-udl_cpp11\n'}
+[67.755000] (nlohmann_json) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-unicode2_cpp11.dir/src/unit-unicode2.cpp.o\x1b[0m\n'}
+[67.759997] (-) TimerEvent: {}
+[67.860429] (-) TimerEvent: {}
+[67.960838] (-) TimerEvent: {}
+[68.061265] (-) TimerEvent: {}
+[68.161736] (-) TimerEvent: {}
+[68.262236] (-) TimerEvent: {}
+[68.362618] (-) TimerEvent: {}
+[68.463088] (-) TimerEvent: {}
+[68.563559] (-) TimerEvent: {}
+[68.664047] (-) TimerEvent: {}
+[68.764516] (-) TimerEvent: {}
+[68.864966] (-) TimerEvent: {}
+[68.965407] (-) TimerEvent: {}
+[69.065865] (-) TimerEvent: {}
+[69.166355] (-) TimerEvent: {}
+[69.266831] (-) TimerEvent: {}
+[69.367297] (-) TimerEvent: {}
+[69.467751] (-) TimerEvent: {}
+[69.568248] (-) TimerEvent: {}
+[69.732233] (-) TimerEvent: {}
+[69.832660] (-) TimerEvent: {}
+[69.933062] (-) TimerEvent: {}
+[70.033455] (-) TimerEvent: {}
+[70.133873] (-) TimerEvent: {}
+[70.234342] (-) TimerEvent: {}
+[70.334811] (-) TimerEvent: {}
+[70.435280] (-) TimerEvent: {}
+[70.535744] (-) TimerEvent: {}
+[70.636250] (-) TimerEvent: {}
+[70.736735] (-) TimerEvent: {}
+[70.837193] (-) TimerEvent: {}
+[70.937645] (-) TimerEvent: {}
+[71.038094] (-) TimerEvent: {}
+[71.138554] (-) TimerEvent: {}
+[71.239014] (-) TimerEvent: {}
+[71.339470] (-) TimerEvent: {}
+[71.439940] (-) TimerEvent: {}
+[71.540399] (-) TimerEvent: {}
+[71.640856] (-) TimerEvent: {}
+[71.741353] (-) TimerEvent: {}
+[71.841830] (-) TimerEvent: {}
+[71.942275] (-) TimerEvent: {}
+[72.042744] (-) TimerEvent: {}
+[72.143227] (-) TimerEvent: {}
+[72.243695] (-) TimerEvent: {}
+[72.344158] (-) TimerEvent: {}
+[72.444608] (-) TimerEvent: {}
+[72.545070] (-) TimerEvent: {}
+[72.645478] (-) TimerEvent: {}
+[72.661250] (nlohmann_json) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test-udt_macro_cpp11\x1b[0m\n'}
+[72.745604] (-) TimerEvent: {}
+[72.846117] (-) TimerEvent: {}
+[72.946500] (-) TimerEvent: {}
+[72.969264] (nlohmann_json) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX executable test-unicode2_cpp11\x1b[0m\n'}
+[73.038637] (nlohmann_json) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable test-unicode1_cpp11\x1b[0m\n'}
+[73.046625] (-) TimerEvent: {}
+[73.142286] (nlohmann_json) StdoutLine: {'line': b'[ 80%] Built target test-udt_macro_cpp11\n'}
+[73.146756] (-) TimerEvent: {}
+[73.173206] (nlohmann_json) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-unicode3_cpp11.dir/src/unit-unicode3.cpp.o\x1b[0m\n'}
+[73.246888] (-) TimerEvent: {}
+[73.347332] (-) TimerEvent: {}
+[73.447777] (-) TimerEvent: {}
+[73.481739] (nlohmann_json) StdoutLine: {'line': b'[ 80%] Built target test-unicode1_cpp11\n'}
+[73.535385] (nlohmann_json) StdoutLine: {'line': b'[ 80%] Built target test-unicode2_cpp11\n'}
+[73.547917] (-) TimerEvent: {}
+[73.623369] (nlohmann_json) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-unicode4_cpp11.dir/src/unit-unicode4.cpp.o\x1b[0m\n'}
+[73.627433] (nlohmann_json) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-unicode5_cpp11.dir/src/unit-unicode5.cpp.o\x1b[0m\n'}
+[73.648050] (-) TimerEvent: {}
+[73.748477] (-) TimerEvent: {}
+[73.848866] (-) TimerEvent: {}
+[73.949366] (-) TimerEvent: {}
+[74.031671] (nlohmann_json) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable test-regression1_cpp11\x1b[0m\n'}
+[74.049506] (-) TimerEvent: {}
+[74.149936] (-) TimerEvent: {}
+[74.250434] (-) TimerEvent: {}
+[74.350934] (-) TimerEvent: {}
+[74.451422] (-) TimerEvent: {}
+[74.551915] (-) TimerEvent: {}
+[74.652426] (-) TimerEvent: {}
+[74.752842] (-) TimerEvent: {}
+[74.853267] (-) TimerEvent: {}
+[74.880806] (nlohmann_json) StdoutLine: {'line': b'[ 82%] Built target test-regression1_cpp11\n'}
+[74.953414] (-) TimerEvent: {}
+[74.977031] (nlohmann_json) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-user_defined_input_cpp11.dir/src/unit-user_defined_input.cpp.o\x1b[0m\n'}
+[75.053534] (-) TimerEvent: {}
+[75.153908] (-) TimerEvent: {}
+[75.254270] (-) TimerEvent: {}
+[75.354609] (-) TimerEvent: {}
+[75.454930] (-) TimerEvent: {}
+[75.555299] (-) TimerEvent: {}
+[75.655697] (-) TimerEvent: {}
+[75.756093] (-) TimerEvent: {}
+[75.856488] (-) TimerEvent: {}
+[75.956876] (-) TimerEvent: {}
+[76.057267] (-) TimerEvent: {}
+[76.157669] (-) TimerEvent: {}
+[76.258082] (-) TimerEvent: {}
+[76.358457] (-) TimerEvent: {}
+[76.458851] (-) TimerEvent: {}
+[76.559245] (-) TimerEvent: {}
+[76.659658] (-) TimerEvent: {}
+[76.760131] (-) TimerEvent: {}
+[76.860529] (-) TimerEvent: {}
+[76.879597] (nlohmann_json) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable test-udt_cpp11\x1b[0m\n'}
+[76.960647] (-) TimerEvent: {}
+[77.061057] (-) TimerEvent: {}
+[77.161474] (-) TimerEvent: {}
+[77.262062] (-) TimerEvent: {}
+[77.362521] (-) TimerEvent: {}
+[77.399539] (nlohmann_json) StdoutLine: {'line': b'[ 83%] Built target test-udt_cpp11\n'}
+[77.462659] (-) TimerEvent: {}
+[77.473543] (nlohmann_json) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable test-regression2_cpp11\x1b[0m\n'}
+[77.495362] (nlohmann_json) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-windows_h_cpp11.dir/src/unit-windows_h.cpp.o\x1b[0m\n'}
+[77.506908] (nlohmann_json) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test-unicode3_cpp11\x1b[0m\n'}
+[77.562789] (-) TimerEvent: {}
+[77.663256] (-) TimerEvent: {}
+[77.763725] (-) TimerEvent: {}
+[77.864231] (-) TimerEvent: {}
+[77.889955] (nlohmann_json) StdoutLine: {'line': b'[ 85%] Built target test-unicode3_cpp11\n'}
+[77.964370] (-) TimerEvent: {}
+[78.009595] (nlohmann_json) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-wstring_cpp11.dir/src/unit-wstring.cpp.o\x1b[0m\n'}
+[78.064502] (-) TimerEvent: {}
+[78.164906] (-) TimerEvent: {}
+[78.168908] (nlohmann_json) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable test-ubjson_cpp11\x1b[0m\n'}
+[78.265045] (-) TimerEvent: {}
+[78.291769] (nlohmann_json) StdoutLine: {'line': b'[ 86%] Built target test-regression2_cpp11\n'}
+[78.295834] (nlohmann_json) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable test-unicode4_cpp11\x1b[0m\n'}
+[78.365184] (-) TimerEvent: {}
+[78.442118] (nlohmann_json) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-comparison_legacy_cpp11.dir/src/unit-comparison.cpp.o\x1b[0m\n'}
+[78.465321] (-) TimerEvent: {}
+[78.514060] (nlohmann_json) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable test-regression1_cpp17\x1b[0m\n'}
+[78.565444] (-) TimerEvent: {}
+[78.665828] (-) TimerEvent: {}
+[78.729852] (nlohmann_json) StdoutLine: {'line': b'[ 87%] Built target test-unicode4_cpp11\n'}
+[78.762653] (nlohmann_json) StdoutLine: {'line': b'[ 87%] Built target test-ubjson_cpp11\n'}
+[78.765999] (-) TimerEvent: {}
+[78.819374] (nlohmann_json) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_default.dir/default.cpp.o\x1b[0m\n'}
+[78.860883] (nlohmann_json) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object tests/CMakeFiles/test-comparison_legacy_cpp20.dir/src/unit-comparison.cpp.o\x1b[0m\n'}
+[78.866113] (-) TimerEvent: {}
+[78.919698] (nlohmann_json) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable test-unicode5_cpp11\x1b[0m\n'}
+[78.966246] (-) TimerEvent: {}
+[79.066741] (-) TimerEvent: {}
+[79.100727] (nlohmann_json) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable test-regression2_cpp17\x1b[0m\n'}
+[79.166877] (-) TimerEvent: {}
+[79.267403] (-) TimerEvent: {}
+[79.364392] (nlohmann_json) StdoutLine: {'line': b'[ 90%] Built target test-regression1_cpp17\n'}
+[79.367541] (-) TimerEvent: {}
+[79.415550] (nlohmann_json) StdoutLine: {'line': b'[ 90%] Built target test-unicode5_cpp11\n'}
+[79.467679] (-) TimerEvent: {}
+[79.568349] (-) TimerEvent: {}
+[79.668795] (-) TimerEvent: {}
+[79.769278] (-) TimerEvent: {}
+[79.844465] (nlohmann_json) StdoutLine: {'line': b'[ 90%] Built target test-regression2_cpp17\n'}
+[79.859900] (nlohmann_json) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable test-user_defined_input_cpp11\x1b[0m\n'}
+[79.869407] (-) TimerEvent: {}
+[79.969868] (-) TimerEvent: {}
+[80.070415] (-) TimerEvent: {}
+[80.074665] (nlohmann_json) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test-windows_h_cpp11\x1b[0m\n'}
+[80.125749] (nlohmann_json) StdoutLine: {'line': b'[ 92%] Built target test-user_defined_input_cpp11\n'}
+[80.170549] (-) TimerEvent: {}
+[80.267708] (nlohmann_json) StdoutLine: {'line': b'[ 92%] Built target test-windows_h_cpp11\n'}
+[80.270671] (-) TimerEvent: {}
+[80.371036] (-) TimerEvent: {}
+[80.471494] (-) TimerEvent: {}
+[80.571925] (-) TimerEvent: {}
+[80.672299] (-) TimerEvent: {}
+[80.772685] (-) TimerEvent: {}
+[80.873031] (-) TimerEvent: {}
+[80.973438] (-) TimerEvent: {}
+[81.073773] (-) TimerEvent: {}
+[81.174168] (-) TimerEvent: {}
+[81.274530] (-) TimerEvent: {}
+[81.374912] (-) TimerEvent: {}
+[81.420353] (nlohmann_json) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable test-regression2_cpp20\x1b[0m\n'}
+[81.475048] (-) TimerEvent: {}
+[81.575475] (-) TimerEvent: {}
+[81.675889] (-) TimerEvent: {}
+[81.776296] (-) TimerEvent: {}
+[81.876734] (-) TimerEvent: {}
+[81.921095] (nlohmann_json) StdoutLine: {'line': b'[ 93%] Built target test-regression2_cpp20\n'}
+[81.976859] (-) TimerEvent: {}
+[82.077195] (-) TimerEvent: {}
+[82.177543] (-) TimerEvent: {}
+[82.277859] (-) TimerEvent: {}
+[82.340177] (nlohmann_json) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable test-comparison_legacy_cpp11\x1b[0m\n'}
+[82.377987] (-) TimerEvent: {}
+[82.478418] (-) TimerEvent: {}
+[82.504657] (nlohmann_json) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable test-wstring_cpp11\x1b[0m\n'}
+[82.577749] (nlohmann_json) StdoutLine: {'line': b'[ 94%] Built target test-comparison_legacy_cpp11\n'}
+[82.578505] (-) TimerEvent: {}
+[82.589271] (nlohmann_json) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable abi_config_default\x1b[0m\n'}
+[82.678683] (-) TimerEvent: {}
+[82.729781] (nlohmann_json) StdoutLine: {'line': b'[ 94%] Built target test-wstring_cpp11\n'}
+[82.778797] (-) TimerEvent: {}
+[82.798224] (nlohmann_json) StdoutLine: {'line': b'[ 94%] Built target abi_config_default\n'}
+[82.878895] (-) TimerEvent: {}
+[82.979182] (-) TimerEvent: {}
+[83.079456] (-) TimerEvent: {}
+[83.179727] (-) TimerEvent: {}
+[83.279997] (-) TimerEvent: {}
+[83.380233] (-) TimerEvent: {}
+[83.480470] (-) TimerEvent: {}
+[83.580704] (-) TimerEvent: {}
+[83.680947] (-) TimerEvent: {}
+[83.781190] (-) TimerEvent: {}
+[83.881433] (-) TimerEvent: {}
+[83.981679] (-) TimerEvent: {}
+[84.081929] (-) TimerEvent: {}
+[84.169582] (nlohmann_json) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable test-comparison_legacy_cpp20\x1b[0m\n'}
+[84.182033] (-) TimerEvent: {}
+[84.282314] (-) TimerEvent: {}
+[84.348275] (nlohmann_json) StdoutLine: {'line': b'[ 94%] Built target test-comparison_legacy_cpp20\n'}
+[84.368607] (nlohmann_json) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag.dir/diag.cpp.o\x1b[0m\n'}
+[84.368856] (nlohmann_json) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object tests/abi/inline_ns/CMakeFiles/abi_compat_inline_ns.dir/use_current.cpp.o\x1b[0m\n'}
+[84.368957] (nlohmann_json) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object tests/abi/inline_ns/CMakeFiles/abi_compat_inline_ns.dir/use_v3_10_5.cpp.o\x1b[0m\n'}
+[84.382421] (-) TimerEvent: {}
+[84.447684] (nlohmann_json) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable abi_compat_diag\x1b[0m\n'}
+[84.482529] (-) TimerEvent: {}
+[84.582869] (-) TimerEvent: {}
+[84.632792] (nlohmann_json) StdoutLine: {'line': b'[ 96%] Built target abi_compat_diag\n'}
+[84.656122] (nlohmann_json) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_custom.dir/custom.cpp.o\x1b[0m\n'}
+[84.656387] (nlohmann_json) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_noversion.dir/noversion.cpp.o\x1b[0m\n'}
+[84.682981] (-) TimerEvent: {}
+[84.783304] (-) TimerEvent: {}
+[84.883636] (-) TimerEvent: {}
+[84.984015] (-) TimerEvent: {}
+[85.084341] (-) TimerEvent: {}
+[85.184667] (-) TimerEvent: {}
+[85.285040] (-) TimerEvent: {}
+[85.385373] (-) TimerEvent: {}
+[85.485696] (-) TimerEvent: {}
+[85.586034] (-) TimerEvent: {}
+[85.686361] (-) TimerEvent: {}
+[85.786701] (-) TimerEvent: {}
+[85.887059] (-) TimerEvent: {}
+[85.987397] (-) TimerEvent: {}
+[86.087732] (-) TimerEvent: {}
+[86.188086] (-) TimerEvent: {}
+[86.288416] (-) TimerEvent: {}
+[86.388798] (-) TimerEvent: {}
+[86.489120] (-) TimerEvent: {}
+[86.589445] (-) TimerEvent: {}
+[86.689760] (-) TimerEvent: {}
+[86.790087] (-) TimerEvent: {}
+[86.890402] (-) TimerEvent: {}
+[86.990734] (-) TimerEvent: {}
+[87.091059] (-) TimerEvent: {}
+[87.191416] (-) TimerEvent: {}
+[87.291722] (-) TimerEvent: {}
+[87.348539] (nlohmann_json) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable abi_compat_inline_ns\x1b[0m\n'}
+[87.391847] (-) TimerEvent: {}
+[87.492188] (-) TimerEvent: {}
+[87.570177] (nlohmann_json) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable abi_config_custom\x1b[0m\n'}
+[87.574842] (nlohmann_json) StdoutLine: {'line': b'[ 99%] Built target abi_compat_inline_ns\n'}
+[87.592316] (-) TimerEvent: {}
+[87.607028] (nlohmann_json) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable abi_config_noversion\x1b[0m\n'}
+[87.692430] (-) TimerEvent: {}
+[87.758843] (nlohmann_json) StdoutLine: {'line': b'[100%] Built target abi_config_custom\n'}
+[87.792535] (-) TimerEvent: {}
+[87.793023] (nlohmann_json) StdoutLine: {'line': b'[100%] Built target abi_config_noversion\n'}
+[87.807576] (nlohmann_json) CommandEnded: {'returncode': 0}
+[87.892621] (-) TimerEvent: {}
+[87.904529] (nlohmann_json) JobProgress: {'identifier': 'nlohmann_json', 'progress': 'install'}
+[87.904778] (nlohmann_json) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json'], 'cwd': '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fudanrobotuser'), ('SSH_CLIENT', '192.168.50.54 59156 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/fudanrobotuser'), ('OLDPWD', '/home/fudanrobotuser'), ('SSH_TTY', '/dev/pts/14'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fudanrobotuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '25'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.54 59156 192.168.50.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[87.913208] (nlohmann_json) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[87.914570] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include\n'}
+[87.914729] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann\n'}
+[87.914862] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/adl_serializer.hpp\n'}
+[87.915057] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail\n'}
+[87.915172] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input\n'}
+[87.915281] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp\n'}
+[87.915408] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/lexer.hpp\n'}
+[87.915630] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp\n'}
+[87.915790] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/position_t.hpp\n'}
+[87.915918] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/parser.hpp\n'}
+[87.916104] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp\n'}
+[87.916385] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_ref.hpp\n'}
+[87.916500] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta\n'}
+[87.916608] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp\n'}
+[87.916712] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp\n'}
+[87.916835] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std\n'}
+[87.916940] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp\n'}
+[87.917044] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp\n'}
+[87.917167] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/detected.hpp\n'}
+[87.917288] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp\n'}
+[87.917412] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp\n'}
+[87.917589] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp\n'}
+[87.917719] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp\n'}
+[87.917841] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/string_escape.hpp\n'}
+[87.917959] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/abi_macros.hpp\n'}
+[87.918078] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/hash.hpp\n'}
+[87.918192] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output\n'}
+[87.918298] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/serializer.hpp\n'}
+[87.918468] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp\n'}
+[87.918698] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp\n'}
+[87.918817] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp\n'}
+[87.918935] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_pointer.hpp\n'}
+[87.919139] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/value_t.hpp\n'}
+[87.919261] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions\n'}
+[87.919356] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp\n'}
+[87.919533] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp\n'}
+[87.919682] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp\n'}
+[87.919830] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp\n'}
+[87.919994] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/string_concat.hpp\n'}
+[87.920218] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/macro_scope.hpp\n'}
+[87.920349] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators\n'}
+[87.920470] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp\n'}
+[87.920585] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp\n'}
+[87.920703] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp\n'}
+[87.920848] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp\n'}
+[87.920967] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp\n'}
+[87.921083] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp\n'}
+[87.921199] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/exceptions.hpp\n'}
+[87.921330] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/ordered_map.hpp\n'}
+[87.921464] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/json.hpp\n'}
+[87.921916] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/json_fwd.hpp\n'}
+[87.922030] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty\n'}
+[87.922137] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley\n'}
+[87.922245] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp\n'}
+[87.922350] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp\n'}
+[87.922594] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp\n'}
+[87.922867] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake\n'}
+[87.922996] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake\n'}
+[87.923173] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake\n'}
+[87.923384] (nlohmann_json) StdoutLine: {'line': b'-- Installing: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/pkgconfig/nlohmann_json.pc\n'}
+[87.925270] (nlohmann_json) CommandEnded: {'returncode': 0}
+[87.931660] (nlohmann_json) JobEnded: {'identifier': 'nlohmann_json', 'rc': 0}
+[87.932488] (-) EventReactorShutdown: {}

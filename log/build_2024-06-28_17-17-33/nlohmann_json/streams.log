@@ -1,0 +1,233 @@
+[0.171s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json': /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json -- -j10 -l10
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target abi_compat_main[0m
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target abi_compat_diag_off[0m
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target test_main[0m
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target abi_compat_diag_on[0m
+[0.237s] [  1%] Built target abi_compat_main
+[0.238s] [  3%] Built target abi_compat_diag_off
+[0.238s] [  3%] Built target abi_compat_diag_on
+[0.245s] [  4%] Built target test_main
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target abi_config_default[0m
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target abi_config_noversion[0m
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target abi_compat_inline_ns[0m
+[0.255s] [35m[1mConsolidate compiler generated dependencies of target abi_config_custom[0m
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target test-algorithms_cpp11[0m
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target test-allocator_cpp11[0m
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target test-alt-string_cpp11[0m
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target test-assert_macro_cpp11[0m
+[0.273s] [  5%] Built target abi_config_default
+[0.274s] [  7%] Built target abi_config_noversion
+[0.282s] [  9%] Built target test-algorithms_cpp11
+[0.282s] [  9%] Built target abi_config_custom
+[0.285s] [ 12%] Built target test-allocator_cpp11
+[0.285s] [ 13%] Built target abi_compat_inline_ns
+[0.286s] [ 14%] Built target test-alt-string_cpp11
+[0.295s] [ 15%] Built target test-assert_macro_cpp11
+[0.296s] [35m[1mConsolidate compiler generated dependencies of target test-binary_formats_cpp11[0m
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target test-bjdata_cpp11[0m
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target test-capacity_cpp11[0m
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target test-class_iterator_cpp11[0m
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target test-class_lexer_cpp11[0m
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target test-class_const_iterator_cpp11[0m
+[0.313s] [35m[1mConsolidate compiler generated dependencies of target test-bson_cpp11[0m
+[0.315s] [35m[1mConsolidate compiler generated dependencies of target test-cbor_cpp11[0m
+[0.316s] [35m[1mConsolidate compiler generated dependencies of target test-byte_container_with_subtype_cpp11[0m
+[0.316s] [35m[1mConsolidate compiler generated dependencies of target test-class_parser_cpp11[0m
+[0.328s] [ 16%] Built target test-binary_formats_cpp11
+[0.329s] [ 17%] Built target test-bjdata_cpp11
+[0.337s] [ 18%] Built target test-class_const_iterator_cpp11
+[0.339s] [ 19%] Built target test-capacity_cpp11
+[0.339s] [ 21%] Built target test-class_parser_cpp11
+[0.340s] [ 21%] Built target test-bson_cpp11
+[0.342s] [ 23%] Built target test-class_lexer_cpp11
+[0.349s] [ 25%] Built target test-byte_container_with_subtype_cpp11
+[0.349s] [ 26%] Built target test-cbor_cpp11
+[0.350s] [ 27%] Built target test-class_iterator_cpp11
+[0.351s] [35m[1mConsolidate compiler generated dependencies of target test-comparison_cpp11[0m
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target test-comparison_cpp20[0m
+[0.364s] [35m[1mConsolidate compiler generated dependencies of target test-constructor1_cpp11[0m
+[0.364s] [35m[1mConsolidate compiler generated dependencies of target test-constructor2_cpp11[0m
+[0.369s] [35m[1mConsolidate compiler generated dependencies of target test-conversions_cpp17[0m
+[0.369s] [35m[1mConsolidate compiler generated dependencies of target test-convenience_cpp11[0m
+[0.371s] [35m[1mConsolidate compiler generated dependencies of target test-conversions_cpp11[0m
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target test-concepts_cpp11[0m
+[0.379s] [ 29%] Built target test-conversions_cpp17
+[0.380s] [ 30%] Built target test-comparison_cpp11
+[0.381s] [ 32%] Built target test-comparison_cpp20
+[0.381s] [ 32%] Built target test-constructor2_cpp11
+[0.386s] [35m[1mConsolidate compiler generated dependencies of target test-deserialization_cpp11[0m
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target test-custom-base-class_cpp11[0m
+[0.394s] [ 33%] Built target test-convenience_cpp11
+[0.395s] [ 35%] Built target test-concepts_cpp11
+[0.398s] [ 36%] Built target test-constructor1_cpp11
+[0.401s] [ 37%] Built target test-conversions_cpp11
+[0.403s] [ 38%] Built target test-deserialization_cpp11
+[0.404s] [35m[1mConsolidate compiler generated dependencies of target test-disabled_exceptions_cpp11[0m
+[0.405s] [35m[1mConsolidate compiler generated dependencies of target test-element_access1_cpp11[0m
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target test-diagnostics_cpp11[0m
+[0.412s] [35m[1mConsolidate compiler generated dependencies of target test-element_access2_cpp11[0m
+[0.414s] [35m[1mConsolidate compiler generated dependencies of target test-element_access2_cpp14[0m
+[0.415s] [ 39%] Built target test-custom-base-class_cpp11
+[0.418s] [35m[1mConsolidate compiler generated dependencies of target test-hash_cpp11[0m
+[0.419s] [35m[1mConsolidate compiler generated dependencies of target test-inspection_cpp11[0m
+[0.422s] [35m[1mConsolidate compiler generated dependencies of target test-element_access2_cpp17[0m
+[0.423s] [ 40%] Built target test-element_access1_cpp11
+[0.425s] [ 41%] Built target test-disabled_exceptions_cpp11
+[0.429s] [ 42%] Built target test-diagnostics_cpp11
+[0.434s] [35m[1mConsolidate compiler generated dependencies of target test-items_cpp11[0m
+[0.434s] [ 44%] Built target test-element_access2_cpp11
+[0.435s] [ 45%] Built target test-hash_cpp11
+[0.436s] [35m[1mConsolidate compiler generated dependencies of target test-items_cpp17[0m
+[0.438s] [ 46%] Built target test-element_access2_cpp14
+[0.440s] [ 47%] Built target test-inspection_cpp11
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target test-iterators2_cpp11[0m
+[0.445s] [ 48%] Built target test-element_access2_cpp17
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target test-iterators2_cpp20[0m
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target test-iterators1_cpp11[0m
+[0.451s] [35m[1mConsolidate compiler generated dependencies of target test-json_pointer_cpp11[0m
+[0.452s] [ 50%] Built target test-items_cpp11
+[0.453s] [35m[1mConsolidate compiler generated dependencies of target test-json_patch_cpp11[0m
+[0.456s] [35m[1mConsolidate compiler generated dependencies of target test-large_json_cpp11[0m
+[0.456s] [ 51%] Built target test-items_cpp17
+[0.457s] [ 52%] Built target test-iterators2_cpp11
+[0.459s] [35m[1mConsolidate compiler generated dependencies of target test-json_pointer_cpp20[0m
+[0.464s] [ 53%] Built target test-iterators1_cpp11
+[0.466s] [ 54%] Built target test-json_patch_cpp11
+[0.468s] [ 55%] Built target test-iterators2_cpp20
+[0.469s] [ 57%] Built target test-json_pointer_cpp11
+[0.470s] [35m[1mConsolidate compiler generated dependencies of target test-modifiers_cpp11[0m
+[0.472s] [ 58%] Built target test-large_json_cpp11
+[0.473s] [35m[1mConsolidate compiler generated dependencies of target test-merge_patch_cpp11[0m
+[0.473s] [35m[1mConsolidate compiler generated dependencies of target test-no-mem-leak-on-adl-serialize_cpp11[0m
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target test-meta_cpp11[0m
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target test-msgpack_cpp11[0m
+[0.481s] [35m[1mConsolidate compiler generated dependencies of target test-noexcept_cpp11[0m
+[0.484s] [ 59%] Built target test-json_pointer_cpp20
+[0.485s] [35m[1mConsolidate compiler generated dependencies of target test-ordered_json_cpp11[0m
+[0.490s] [ 60%] Built target test-no-mem-leak-on-adl-serialize_cpp11
+[0.490s] [ 62%] Built target test-modifiers_cpp11
+[0.490s] [ 63%] Built target test-merge_patch_cpp11
+[0.494s] [35m[1mConsolidate compiler generated dependencies of target test-ordered_map_cpp11[0m
+[0.495s] [ 64%] Built target test-ordered_json_cpp11
+[0.497s] [ 66%] Built target test-meta_cpp11
+[0.497s] [ 66%] Built target test-msgpack_cpp11
+[0.499s] [35m[1mConsolidate compiler generated dependencies of target test-readme_cpp11[0m
+[0.500s] [35m[1mConsolidate compiler generated dependencies of target test-pointer_access_cpp11[0m
+[0.508s] [ 67%] Built target test-noexcept_cpp11
+[0.510s] [ 68%] Built target test-pointer_access_cpp11
+[0.510s] [ 70%] Built target test-ordered_map_cpp11
+[0.511s] [35m[1mConsolidate compiler generated dependencies of target test-reference_access_cpp11[0m
+[0.511s] [35m[1mConsolidate compiler generated dependencies of target test-regression1_cpp17[0m
+[0.513s] [35m[1mConsolidate compiler generated dependencies of target test-regression2_cpp11[0m
+[0.517s] [35m[1mConsolidate compiler generated dependencies of target test-regression2_cpp17[0m
+[0.519s] [35m[1mConsolidate compiler generated dependencies of target test-regression1_cpp11[0m
+[0.522s] [35m[1mConsolidate compiler generated dependencies of target test-regression2_cpp20[0m
+[0.526s] [ 71%] Built target test-regression1_cpp17
+[0.528s] [ 72%] Built target test-readme_cpp11
+[0.529s] [35m[1mConsolidate compiler generated dependencies of target test-serialization_cpp11[0m
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target test-testsuites_cpp11[0m
+[0.532s] [ 74%] Built target test-regression2_cpp11
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target test-to_chars_cpp11[0m
+[0.536s] [ 75%] Built target test-reference_access_cpp11
+[0.536s] [ 76%] Built target test-regression2_cpp20
+[0.538s] [ 77%] Built target test-regression2_cpp17
+[0.542s] [ 78%] Built target test-regression1_cpp11
+[0.542s] [ 79%] Built target test-serialization_cpp11
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target test-type_traits_cpp11[0m
+[0.548s] [35m[1mConsolidate compiler generated dependencies of target test-ubjson_cpp11[0m
+[0.549s] [ 80%] Built target test-testsuites_cpp11
+[0.549s] [35m[1mConsolidate compiler generated dependencies of target test-udt_cpp11[0m
+[0.552s] [35m[1mConsolidate compiler generated dependencies of target test-udl_cpp11[0m
+[0.557s] [ 81%] Built target test-type_traits_cpp11
+[0.557s] [35m[1mConsolidate compiler generated dependencies of target test-udt_macro_cpp11[0m
+[0.561s] [35m[1mConsolidate compiler generated dependencies of target test-unicode3_cpp11[0m
+[0.561s] [35m[1mConsolidate compiler generated dependencies of target test-unicode2_cpp11[0m
+[0.562s] [35m[1mConsolidate compiler generated dependencies of target test-unicode1_cpp11[0m
+[0.565s] [ 83%] Built target test-to_chars_cpp11
+[0.566s] [ 84%] Built target test-ubjson_cpp11
+[0.567s] [35m[1mConsolidate compiler generated dependencies of target test-unicode4_cpp11[0m
+[0.573s] [ 85%] Built target test-udl_cpp11
+[0.576s] [ 86%] Built target test-udt_macro_cpp11
+[0.577s] [ 87%] Built target test-udt_cpp11
+[0.577s] [ 88%] Built target test-unicode3_cpp11
+[0.579s] [35m[1mConsolidate compiler generated dependencies of target test-user_defined_input_cpp11[0m
+[0.582s] [35m[1mConsolidate compiler generated dependencies of target test-unicode5_cpp11[0m
+[0.583s] [ 90%] Built target test-unicode1_cpp11
+[0.584s] [ 91%] Built target test-unicode4_cpp11
+[0.585s] [ 92%] Built target test-unicode2_cpp11
+[0.591s] [35m[1mConsolidate compiler generated dependencies of target test-windows_h_cpp11[0m
+[0.592s] [35m[1mConsolidate compiler generated dependencies of target test-comparison_legacy_cpp20[0m
+[0.592s] [ 94%] Built target test-user_defined_input_cpp11
+[0.593s] [35m[1mConsolidate compiler generated dependencies of target test-comparison_legacy_cpp11[0m
+[0.595s] [35m[1mConsolidate compiler generated dependencies of target test-wstring_cpp11[0m
+[0.596s] [35m[1mConsolidate compiler generated dependencies of target abi_compat_diag[0m
+[0.603s] [ 95%] Built target test-unicode5_cpp11
+[0.605s] [ 96%] Built target test-windows_h_cpp11
+[0.607s] [ 97%] Built target abi_compat_diag
+[0.608s] [ 99%] Built target test-comparison_legacy_cpp20
+[0.608s] [ 99%] Built target test-comparison_legacy_cpp11
+[0.610s] [100%] Built target test-wstring_cpp11
+[0.624s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json' returned '0': /usr/bin/cmake --build /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json -- -j10 -l10
+[0.723s] Invoking command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json': /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json
+[0.731s] -- Install configuration: ""
+[0.734s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include
+[0.734s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann
+[0.735s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/adl_serializer.hpp
+[0.735s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail
+[0.735s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input
+[0.735s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp
+[0.735s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/lexer.hpp
+[0.735s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp
+[0.735s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/position_t.hpp
+[0.736s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/parser.hpp
+[0.736s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp
+[0.736s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_ref.hpp
+[0.736s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta
+[0.736s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp
+[0.736s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp
+[0.736s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std
+[0.736s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp
+[0.737s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp
+[0.737s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/detected.hpp
+[0.737s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp
+[0.737s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp
+[0.737s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp
+[0.737s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp
+[0.737s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/string_escape.hpp
+[0.737s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/abi_macros.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/hash.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/serializer.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/json_pointer.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/value_t.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp
+[0.738s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/string_concat.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/macro_scope.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/detail/exceptions.hpp
+[0.739s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/ordered_map.hpp
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/json.hpp
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/json_fwd.hpp
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+[0.740s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+[0.741s] -- Up-to-date: /home/fudanrobotuser/fd_humanoid_robot/install/nlohmann_json/share/pkgconfig/nlohmann_json.pc
+[0.742s] Invoked command in '/home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json' returned '0': /usr/bin/cmake --install /home/fudanrobotuser/fd_humanoid_robot/build/nlohmann_json

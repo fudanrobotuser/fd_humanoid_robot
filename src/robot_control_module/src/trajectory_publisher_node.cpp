@@ -10,6 +10,9 @@
 #include "trajectory_msgs/msg/joint_trajectory.hpp"
 #include "sensor_msgs/msg/joint_state.hpp"
 #include "std_msgs/msg/int32.hpp"
+#include "std_msgs/msg/string.hpp" // Include the ROS 2 message type for strings
+
+std::string csvfilename = "/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/motor.csv";
 
 struct JointTrajectoryData
 {
@@ -68,10 +71,14 @@ public:
 
         publisher_ = this->create_publisher<trajectory_msgs::msg::JointTrajectory>("trajectory_controller/joint_trajectory", 10);
         publisher2_ = this->create_publisher<std_msgs::msg::Int32>("int_topic", 10);
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(950), std::bind(&TrajectoryPublisher::publish_next_batch, this));
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(1950), std::bind(&TrajectoryPublisher::publish_next_batch, this));
         auto message2 = std_msgs::msg::Int32();
         message2.data = 1;
         publisher2_->publish(message2);
+        subscription_ = this->create_subscription<std_msgs::msg::String>(
+            "set_file", // Change "topic_name" to your desired topic
+            10,         // QoS settings: depth of the subscription queue
+            std::bind(&TrajectoryPublisher::topic_callback, this, std::placeholders::_1));
     }
 
 private:
@@ -94,19 +101,27 @@ private:
         {
             auto message2 = std_msgs::msg::Int32();
             message2.data = 2;
-            publisher2_->publish(message2);                 
+            publisher2_->publish(message2);
             // 数据发送完毕，重新开始
             RCLCPP_INFO(this->get_logger(), "All points have been published");
             timer_->reset();
             timer_.reset();
-       
+
             rclcpp::shutdown();
         }
+    }
+
+    void topic_callback(const std_msgs::msg::String::SharedPtr msg)
+    {
+        // Callback function to handle incoming messages
+        csvfilename = "/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/" +  msg->data;
+        RCLCPP_INFO(this->get_logger(), "Received message: %s", msg->data.c_str());
     }
 
     rclcpp::Publisher<trajectory_msgs::msg::JointTrajectory>::SharedPtr publisher_;
     rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr publisher2_;
     rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 
     JointTrajectoryData data_;
     size_t point_index_;
@@ -116,8 +131,8 @@ private:
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
-    std::string filename = "/home/fudanrobotuser/fd_humanoid_robot/src/robot_control_module/motor.csv";
-    auto node = std::make_shared<TrajectoryPublisher>(filename);
+    
+    auto node = std::make_shared<TrajectoryPublisher>(csvfilename);
     rclcpp::spin(node);
     rclcpp::shutdown();
 }
